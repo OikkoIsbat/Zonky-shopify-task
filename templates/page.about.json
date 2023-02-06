@@ -1,0 +1,225 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "title": "About\nUs",
+            "title_size": 67,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-top horizontal-left",
+            "image": "shopify:\/\/shop_images\/Camping-01_shadow.jpg",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "settings": {
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 20,
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "We aim to positively impact communities by contributing to early years development through imaginative play."
+          }
+        }
+      },
+      "block_order": [
+        "heading"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": true
+      }
+    },
+    "16318237863e54cd39": {
+      "type": "logo-list",
+      "disabled": true,
+      "blocks": {
+        "16318237863e54cd39-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_019478e1-148f-4eeb-b8ff-f35b2ff4735d.png",
+            "link": ""
+          }
+        },
+        "16318237863e54cd39-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_4a38e10c-1eba-42ce-b15f-27d4b5bd97a6.png",
+            "link": ""
+          }
+        },
+        "16318237863e54cd39-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_d55ef0ee-372e-4d35-8ae6-e96676b7ed18.png",
+            "link": ""
+          }
+        },
+        "16318237863e54cd39-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_58389876-1d3b-458d-a901-70a690e0ae6c.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16318237863e54cd39-3",
+        "16318237863e54cd39-0",
+        "16318237863e54cd39-2",
+        "16318237863e54cd39-1"
+      ],
+      "settings": {
+        "title": "Our Values",
+        "logo_opacity": 76,
+        "alt": false
+      }
+    },
+    "1633591736ea637e41": {
+      "type": "text-columns",
+      "blocks": {
+        "1633591736ea637e41-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/4_019478e1-148f-4eeb-b8ff-f35b2ff4735d.png",
+            "image_width": 200,
+            "title": "",
+            "text": "<p>Research shows that learning through play is vital to a child's brain development. Hence, why we invest in early years to lay the foundations for a better future.<br\/><\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1633591736ea637e41-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/3_4a38e10c-1eba-42ce-b15f-27d4b5bd97a6.png",
+            "image_width": 200,
+            "title": "",
+            "text": "<p>We provide an environment that encourages care and kindness for ourselves and one another. It's important for us to pursue life with purpose and help others in need.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "915ae4fc-9e51-4444-9fd7-3e3c0a65a6cf": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/1_d55ef0ee-372e-4d35-8ae6-e96676b7ed18.png",
+            "image_width": 200,
+            "title": "",
+            "text": "<p>We know nobody is perfect — but we can try! We only use the best quality materials and always give our customers the best possible service. <\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "6bb35cb8-9fec-45df-8fc3-95c365fa80b8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2_58389876-1d3b-458d-a901-70a690e0ae6c.png",
+            "image_width": 200,
+            "title": "",
+            "text": "<p>Ensuring every individual has an equal opportunity is an integral part of our brand. We highly value affordability and accessibility for all families, no matter the budget.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1633591736ea637e41-0",
+        "1633591736ea637e41-1",
+        "915ae4fc-9e51-4444-9fd7-3e3c0a65a6cf",
+        "6bb35cb8-9fec-45df-8fc3-95c365fa80b8"
+      ],
+      "settings": {
+        "title": "Our Values",
+        "align_text": "center",
+        "alt": false
+      }
+    },
+    "text-columns": {
+      "type": "text-columns",
+      "blocks": {
+        "column1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/charity.png",
+            "image_width": 60,
+            "title": "Giving Back",
+            "text": "<p>⅓ of our profits are donated to the <a href=\"https:\/\/www.loft25foundation.org\/\" target=\"_blank\" title=\"https:\/\/www.loft25foundation.org\/\"><strong>Loft 25 Foundation<\/strong><\/a>, an organisation designed to support communities by funding sustainable projects that empower and solve problems holistically.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "column2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/cohesion.png",
+            "image_width": 60,
+            "title": "Inclusion",
+            "text": "<p>We honour diversity — celebrating all that makes us unique and accepting others regardless of gender, race, background and individual needs. Everyone is welcome at Zonky.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "column3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/sprout.png",
+            "image_width": 60,
+            "title": "Sustainability",
+            "text": "<p>Our journey to a better future starts here! All of our orders are shipped by <a href=\"https:\/\/green.dpd.co.uk\/\" target=\"_blank\" title=\"https:\/\/green.dpd.co.uk\/\"><strong>DPD, the UK's most sustainable delivery company<\/strong><\/a>. They are committed to combat climate change by becoming carbon-neutral.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "Our Ethics",
+        "align_text": "center",
+        "alt": false
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "main",
+    "rich-text",
+    "16318237863e54cd39",
+    "1633591736ea637e41",
+    "text-columns"
+  ]
+}

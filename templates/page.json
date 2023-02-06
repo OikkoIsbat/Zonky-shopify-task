@@ -1,0 +1,302 @@
+{
+  "sections": {
+    "1631824494c84cde63": {
+      "type": "faq",
+      "blocks": {
+        "d3ca4b15-b0c0-42bb-a601-3d63c25d1513": {
+          "type": "rich-text",
+          "settings": {
+            "title": "General 💭",
+            "text": "",
+            "align_text": "center"
+          }
+        },
+        "95e3e7e9-6bf1-418b-8757-7891801ca9ef": {
+          "type": "question",
+          "settings": {
+            "title": "Where is The Zonky made?",
+            "text": "<p>We're proudly 100% made in the UK — from the talented team of designers that made the first sketch, to the wonderful warehouse team that pack and ship your orders.<\/p><p>We even work with small independent British businesses on collaboration projects for our Activity Packs.<\/p>"
+          }
+        },
+        "89347a57-45ad-442d-999a-0b6954d3e6fb": {
+          "type": "question",
+          "settings": {
+            "title": "What is The Zonky made from?",
+            "text": "<p>At Zonky, we strive for excellence and only produce the best quality products. That's why we use commercial grade foam filling inside a super soft, vegan suede cover.<\/p>"
+          }
+        },
+        "9fc2a8a3-4938-4b67-b257-6b24e0466ca7": {
+          "type": "question",
+          "settings": {
+            "title": "What parts are included in The Zonky?",
+            "text": "<p>The complete set is made up of 6 modular pieces including:<\/p><p><strong>1 x<\/strong> foldable base<\/p><p><strong>1 x <\/strong>foldable base support<\/p><p><strong>2 x<\/strong> triangular pillows <\/p><p><strong>2 x<\/strong> cuboid pillows<\/p>"
+          }
+        },
+        "6c83a93e-df09-4ad1-9bb2-e5e62c1d9a2a": {
+          "type": "question",
+          "settings": {
+            "title": "How big is The Zonky?",
+            "text": "<p>Configured as a sofa, The Zonky measures 136 cm long across the front, with a seat depth of 68 cm and overall height of 50 cm.<\/p><p><br\/><strong>Individual Pieces:<\/strong> <br\/>• <strong>Base 1 (extended): <\/strong>136cm x 68cm x 14cm <\/p><p>• <strong>Base 2 (extended): <\/strong>136cm x 68cm x 7cm <\/p><p>• <strong>Rectangle:<\/strong> 47cm x 20cm x 14cm<\/p><p>• <strong>Triangle: <\/strong>47 cm x 26cm x 27cm<br\/><br\/>Dimensions are approximate.<\/p>"
+          }
+        },
+        "a2bca6a5-1770-4fe6-9e96-efd34eac98c9": {
+          "type": "question",
+          "settings": {
+            "title": "How safe is The Zonky?",
+            "text": "<p>It is, in fact, extremely safe for families!*<\/p><p>The Zonky is hypoallergenic, fire retardant and made with shock absorbing foam.<\/p><p><em>*Adult supervision advised<\/em><\/p>"
+          }
+        },
+        "ef156ec4-5437-4dfe-9aa9-cc6590f8e564": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Delivery 🚚",
+            "text": "",
+            "align_text": "center"
+          }
+        },
+        "1631824494c84cde63-0": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take for my order to arrive?",
+            "text": "<p>Once your item has been dispatched, we aim to deliver within <strong>24-48<\/strong> hours.<\/p><p>You may experience minor delays during product launches and peaks times like Christmas.<\/p>"
+          }
+        },
+        "1631824494c84cde63-1": {
+          "type": "question",
+          "settings": {
+            "title": "How much does delivery cost?",
+            "text": "<p>If you live in the UK (excluding Northern Ireland), Belgium, France, Italy, Spain, Netherlands or Germany, you're in luck! Delivery is completely <strong>FREE<\/strong>.<br\/><br\/>Shipping to Northern Ireland is <strong>£14.99.<\/strong><\/p>"
+          }
+        },
+        "e84ad51e-50a9-479c-afb5-dec55c2b2dbf": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship to Jersey, Guernsey or Isle of Man",
+            "text": "<p>Yes, we offer shipping to Jersey, Guernsey and the Isle of Man. There will be a charge of <strong>£14.99<\/strong>, due to extra costs to ship from England<\/p>"
+          }
+        },
+        "0bbdc446-0d8b-42eb-81ee-2d6714f051df": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship to Northern Ireland",
+            "text": "<p>Yes, we offer shipping to Northern Ireland. There will be a charge of <strong>£14.99<\/strong>, due to extra costs to ship from England<\/p>"
+          }
+        },
+        "5ab3f98e-cdcf-4758-80c2-c1da0c0fc7ec": {
+          "type": "question",
+          "settings": {
+            "title": "I live outside of the UK, can you ship to me?",
+            "text": "<p>We currently ship to Belgium, France, Germany, Italy, Spain, Netherlands, Ireland, Sweden, Portugal, Poland, Denmark and Austria!<\/p>"
+          }
+        },
+        "8cf9e5f4-b734-452a-8b20-f4e3f12f538a": {
+          "type": "question",
+          "settings": {
+            "title": "How will The Zonky arrive?",
+            "text": "<p>The Zonky will arrive in one box.<\/p><p><strong>Shipping box dimensions: <\/strong>70cm × 60cm × 56cm<\/p>"
+          }
+        },
+        "36191dfc-f4c1-464d-808c-7398043f06d6": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Orders 📦",
+            "text": "",
+            "align_text": "center"
+          }
+        },
+        "8a3c5033-911a-4e7a-92e9-e70cd043c092": {
+          "type": "question",
+          "settings": {
+            "title": "What payment methods do you accept?",
+            "text": "<p>We accept all major credit\/debit cards, PayPal and Shopify payments.<\/p>"
+          }
+        },
+        "f91acd55-d923-4bc3-b579-6b838b69d7aa": {
+          "type": "question",
+          "settings": {
+            "title": "Can I cancel my order?",
+            "text": "<p>Need to cancel? Don't fret. As long as your order has not yet been dispatched, just log into your account and request a cancellation. <\/p><p>If your item has already been dispatched, you will need to process a return.<\/p>"
+          }
+        },
+        "bf3b19ff-7d0c-48b9-b5c7-173a8034b2d4": {
+          "type": "question",
+          "settings": {
+            "title": "Do you accept returns or exchanges?",
+            "text": "<p>You can return <strong>unused<\/strong>, <strong>resealed<\/strong> items up to <strong>30<\/strong> days after purchasing. To start the returns process, email us at <strong>customercare@zonky.uk<\/strong>.<\/p><p>We do not provide exchanges for logistical reasons. You will need to return your item and re-order the correct product.<\/p>"
+          }
+        },
+        "ab7f55cc-2f69-4aa9-9598-2c0be3cb994d": {
+          "type": "question",
+          "settings": {
+            "title": "What if there's a problem with The Zonky?",
+            "text": "<p>Accidents happen! If you've received a faulty item, email us at <strong>customercare@zonky.uk<\/strong> with your name, order number and images. We'll try our best to make things right.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d3ca4b15-b0c0-42bb-a601-3d63c25d1513",
+        "95e3e7e9-6bf1-418b-8757-7891801ca9ef",
+        "89347a57-45ad-442d-999a-0b6954d3e6fb",
+        "9fc2a8a3-4938-4b67-b257-6b24e0466ca7",
+        "6c83a93e-df09-4ad1-9bb2-e5e62c1d9a2a",
+        "a2bca6a5-1770-4fe6-9e96-efd34eac98c9",
+        "ef156ec4-5437-4dfe-9aa9-cc6590f8e564",
+        "1631824494c84cde63-0",
+        "1631824494c84cde63-1",
+        "e84ad51e-50a9-479c-afb5-dec55c2b2dbf",
+        "0bbdc446-0d8b-42eb-81ee-2d6714f051df",
+        "5ab3f98e-cdcf-4758-80c2-c1da0c0fc7ec",
+        "8cf9e5f4-b734-452a-8b20-f4e3f12f538a",
+        "36191dfc-f4c1-464d-808c-7398043f06d6",
+        "8a3c5033-911a-4e7a-92e9-e70cd043c092",
+        "f91acd55-d923-4bc3-b579-6b838b69d7aa",
+        "bf3b19ff-7d0c-48b9-b5c7-173a8034b2d4",
+        "ab7f55cc-2f69-4aa9-9598-2c0be3cb994d"
+      ],
+      "settings": {
+        "title": "Frequently Asked Questions"
+      }
+    },
+    "16318707432e5761b0": {
+      "type": "faq",
+      "blocks": {
+        "f6b5dbc2-0f91-4399-af10-d09bf2ea591d": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Aftercare 🧽",
+            "text": "",
+            "align_text": "center"
+          }
+        },
+        "16318707432e5761b0-0": {
+          "type": "question",
+          "settings": {
+            "title": "How do I wash The Zonky?",
+            "text": "<p>The Zonky is bound to get a little mucky, so let's go over a few cleaning tips and tricks:<\/p><p>Vacuum The Zonky to remove crumbs, dust & fluff.<\/p><p>For most spills, pat dry with a damp cloth and spot clean with upholstery cleaner and warm water.<\/p><p>To deep clean, machine wash on cold with similar colours and leave to air dry. <\/p><p>Do not iron.<\/p>"
+          }
+        },
+        "16318707432e5761b0-1": {
+          "type": "question",
+          "settings": {
+            "title": "Should I use cleaning products?",
+            "text": "<p>We advise using upholstery cleaners to spot clean and to wash, most household washing detergents will do just fine. Avoid using harsh ingredients and fabric softeners, as they break down fibres in the fabric. Do not use bleach.<\/p>"
+          }
+        },
+        "16d60866-e96f-463a-a68a-5f61a961231f": {
+          "type": "question",
+          "settings": {
+            "title": "Can I clean the foam?",
+            "text": "<p>To clean your foam, we suggest spot cleaning with a warm cloth and allowing to dry near a fan or open window. Make sure that the foam is completely dry before putting the covers back on.<\/p>"
+          }
+        },
+        "15445c28-bfa3-4a9b-9208-22c28b36398c": {
+          "type": "question",
+          "settings": {
+            "title": "Is The Zonky waterproof?",
+            "text": "<p>Although not waterproof, it is indeed, water-resistant. Small spills will roll off the surface and can be pat dry.<\/p>"
+          }
+        },
+        "c7710eb4-09cd-41ae-8616-3b592a9ce8cc": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Free Downloads 📝",
+            "text": "",
+            "align_text": "center"
+          }
+        },
+        "ad699067-c8e8-471e-bf0b-151fef238aad": {
+          "type": "question",
+          "settings": {
+            "title": "Are they really free?",
+            "text": "<p>YES! We want everyone to get the most out of learning with Zonky. All our Activity Packs are completely free, with no hidden fees, for you to enjoy time and time again.<\/p>"
+          }
+        },
+        "e6eb8113-1ae7-4e4d-84b8-d452187db8be": {
+          "type": "question",
+          "settings": {
+            "title": "How do I download my activity pack?",
+            "text": "<p>Once you've picked your Activity Pack, simply add to cart, fill in your details and checkout as usual.<\/p><p>You'll be emailed a link when your Activity Pack is ready to download.<\/p><p>We want to see your creations and how well you get on. Tag us on Instagram once completed <strong>@zonky.uk<\/strong>.<\/p>"
+          }
+        },
+        "6e3b282f-ab92-4607-925e-1e5b603ba3e4": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "Where can I see all my previous downloads?*",
+            "text": "<p>A new Activity Pack will be available to download every single month! Sign up to our mailing list for alerts.<\/p>"
+          }
+        },
+        "23f49cfd-bcde-46f4-a80c-1cfa82cb0a25": {
+          "type": "question",
+          "settings": {
+            "title": "When will you release more?",
+            "text": "<p>New Activity Packs will be available to download monthly. Check <a href=\"\/collections\" title=\"All collections\">here<\/a> for release dates, or sign up to our mailing list for reminders.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f6b5dbc2-0f91-4399-af10-d09bf2ea591d",
+        "16318707432e5761b0-0",
+        "16318707432e5761b0-1",
+        "16d60866-e96f-463a-a68a-5f61a961231f",
+        "15445c28-bfa3-4a9b-9208-22c28b36398c",
+        "c7710eb4-09cd-41ae-8616-3b592a9ce8cc",
+        "ad699067-c8e8-471e-bf0b-151fef238aad",
+        "e6eb8113-1ae7-4e4d-84b8-d452187db8be",
+        "6e3b282f-ab92-4607-925e-1e5b603ba3e4",
+        "23f49cfd-bcde-46f4-a80c-1cfa82cb0a25"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "16318707392cb7e474": {
+      "type": "rich-text",
+      "blocks": {
+        "16318707392cb7e474-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Didn't find what you we're looking for?"
+          }
+        },
+        "16318707392cb7e474-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>That's OK, drop us a message below and we'll email you back in no time. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16318707392cb7e474-0",
+        "16318707392cb7e474-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": true
+      }
+    },
+    "1631869654c0e712d2": {
+      "type": "contact-form",
+      "settings": {
+        "title": "",
+        "show_phone": false,
+        "narrow_column": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "1631824494c84cde63",
+    "16318707432e5761b0",
+    "16318707392cb7e474",
+    "1631869654c0e712d2",
+    "main"
+  ]
+}

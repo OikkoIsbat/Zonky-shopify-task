@@ -1,0 +1,349 @@
+{
+  "sections": {
+    "16534930361a3bb0a9": {
+      "type": "marquee",
+      "disabled": true,
+      "settings": {
+        "text": "👑 Click to download FREE Jubilee Activity Pack!",
+        "link": "shopify:\/\/products\/queens-platinum-jubilee-zonkyland-activity-pack-vol-7",
+        "text_size": 24,
+        "text_spacing": true,
+        "color_scheme": "text",
+        "direction": "left",
+        "speed": "normal"
+      }
+    },
+    "16461356153ebdedb5": {
+      "type": "slideshow",
+      "blocks": {
+        "9b4a2e0e-d238-4e60-98c6-46e304ac0184": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify:\/\/products\/the-zonky-2-0",
+            "link_text": "SHOP ZONKY",
+            "color_accent": "{{ shop.brand.colors.primary[1].background }}",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/web.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/mobile_2.jpg",
+            "focal_point": "center center"
+          }
+        },
+        "164613561531a16367-0": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify:\/\/products\/zonky-cover",
+            "link_text": "SHOP ZONKY COVERS",
+            "color_accent": "{{ shop.brand.colors.primary[1].background }}",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/web2.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/mobile.jpg",
+            "focal_point": "center center"
+          }
+        },
+        "6815cdf3-88ef-4ffd-8d57-1bc28dd474ed": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify:\/\/products\/the-zonky-2-0",
+            "link_text": "SHOP ZONKY",
+            "color_accent": "{{ shop.brand.colors.primary[1].background }}",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/Christmas_Day_2_edit_fin_website.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Christmas_Day_2_edit_fin_website_mobile_fin.jpg",
+            "focal_point": "center center"
+          }
+        },
+        "107b6575-f25b-4ef2-a5ac-9d3f159f0ddc": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "Two line\nslide title.",
+            "title_size": 80,
+            "subheading": "And an optional subheading",
+            "link": "",
+            "link_text": "Optional button",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "9b4a2e0e-d238-4e60-98c6-46e304ac0184",
+        "164613561531a16367-0",
+        "6815cdf3-88ef-4ffd-8d57-1bc28dd474ed",
+        "107b6575-f25b-4ef2-a5ac-9d3f159f0ddc"
+      ],
+      "settings": {
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "1631818734c8d5027f": {
+      "type": "rich-text",
+      "blocks": {
+        "1631818734c8d5027f-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>The modular soft play sofa that takes playtime to a whole new level. Little imaginations run wild with thousands of ways to build and create.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1631818734c8d5027f-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": false
+      }
+    },
+    "16318188212c61f967": {
+      "type": "text-columns",
+      "blocks": {
+        "16318188212c61f967-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/promotesimaginationicon_713e8fb1-8c7a-48ba-be05-363b62ea8cbd.png",
+            "image_width": 130,
+            "title": "Boosts Development",
+            "text": "<p>Imaginative play sparks creativity in early years, allowing them to advance their problem-solving and self-regulation skills.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "16318188212c61f967-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/shockabsorbingicon.png",
+            "image_width": 130,
+            "title": "Shock-Absorbing",
+            "text": "<p>Avoid bumps and bruises with our premium, high-density foam. Made for jumps, dives & tumbles.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "ed3c9029-69bd-4024-8d92-6bb141c973ea": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/easystorageicon.png",
+            "image_width": 130,
+            "title": "Easy Storage",
+            "text": "<p>When the adventure ends, The Zonky can either be camouflaged as a sofa or stacked and neatly tucked away.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "3631095c-1e3b-4964-ae5f-ed511dd9e066": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/machinewashable.png",
+            "image_width": 130,
+            "title": "Machine Washable",
+            "text": "<p>Our soft, vegan microsuede covers can be zipped off and put into the washing machine to keep The Zonky fresher for longer.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16318188212c61f967-0",
+        "16318188212c61f967-1",
+        "ed3c9029-69bd-4024-8d92-6bb141c973ea",
+        "3631095c-1e3b-4964-ae5f-ed511dd9e066"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "alt": true
+      }
+    },
+    "164217970566f87b4b": {
+      "type": "featured-product",
+      "blocks": {
+        "16421797055574ec56-0": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "16421797055574ec56-1": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "16421797055574ec56-2": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": true
+          }
+        },
+        "16421797055574ec56-3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": false
+          }
+        },
+        "5f8db92b-3143-4cff-a0fa-483b102cdc69": {
+          "type": "sales_point",
+          "disabled": true,
+          "settings": {
+            "icon": "globe",
+            "text": "Free worldwide shipping"
+          }
+        },
+        "109d36f7-f4d2-4387-95be-3a56cefecc56": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "<a href = \"\/products\/the-zonky-2-0\"> <button class=\"btn btn--full add-to-cart btn--tertiary\" type=\"submit\" value=\"Add To Cart\">More Info<\/button> <\/a>"
+          }
+        }
+      },
+      "block_order": [
+        "16421797055574ec56-0",
+        "16421797055574ec56-1",
+        "16421797055574ec56-2",
+        "16421797055574ec56-3",
+        "5f8db92b-3143-4cff-a0fa-483b102cdc69",
+        "109d36f7-f4d2-4387-95be-3a56cefecc56"
+      ],
+      "settings": {
+        "featured_product": "the-zonky-2-0",
+        "product_image_size": "medium",
+        "product_image_type": "slider",
+        "product_zoom_enable": false,
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "sku_enable": false
+      }
+    },
+    "1631818854b3b2148f": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "",
+        "title": "Our Story",
+        "text": "<p>Read the inspiration behind Zonky, the UK's favourite imaginative play brand.<\/p>",
+        "button_label": "about us",
+        "button_link": "shopify:\/\/pages\/about-us",
+        "image": "shopify:\/\/shop_images\/Fishing-01_fin_shadow.jpg",
+        "desktop_size": 0,
+        "image_alignment": "50% 90%",
+        "color_border": "#cdbcb3",
+        "layout": "left"
+      }
+    },
+    "1637749297319d1523": {
+      "type": "featured-product",
+      "blocks": {
+        "1637749297bd27f988-0": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "1637749297bd27f988-1": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "1637749297bd27f988-2": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "1637749297bd27f988-3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        }
+      },
+      "block_order": [
+        "1637749297bd27f988-0",
+        "1637749297bd27f988-1",
+        "1637749297bd27f988-2",
+        "1637749297bd27f988-3"
+      ],
+      "settings": {
+        "featured_product": "digital-gift-card",
+        "product_image_size": "large",
+        "product_image_type": "slider",
+        "product_zoom_enable": false,
+        "enable_video_looping": false,
+        "product_video_style": "muted",
+        "sku_enable": false
+      }
+    },
+    "marquee": {
+      "type": "marquee",
+      "settings": {
+        "text": "Click here to download FREE Activity Packs ☺",
+        "link": "shopify:\/\/collections",
+        "text_size": 30,
+        "text_spacing": true,
+        "color_scheme": "button",
+        "direction": "left",
+        "speed": "normal"
+      }
+    },
+    "16690378468eb86a2d": {
+      "type": "apps",
+      "blocks": {
+        "826f02bf-2895-4c02-ab43-b561ae3ddf99": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "disabled": true,
+          "settings": {
+            "enabled": true,
+            "id": "64379",
+            "product_id_enabled": true,
+            "collection_id_enabled": true
+          }
+        }
+      },
+      "block_order": [
+        "826f02bf-2895-4c02-ab43-b561ae3ddf99"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "16534930361a3bb0a9",
+    "16461356153ebdedb5",
+    "1631818734c8d5027f",
+    "16318188212c61f967",
+    "164217970566f87b4b",
+    "1631818854b3b2148f",
+    "1637749297319d1523",
+    "marquee",
+    "16690378468eb86a2d"
+  ]
+}

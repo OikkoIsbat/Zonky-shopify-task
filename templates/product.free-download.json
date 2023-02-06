@@ -1,0 +1,195 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "bf5cc6dd-0115-44ee-a720-03444424b9cd": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "checkmark",
+            "text": "FREE Digital Download"
+          }
+        },
+        "da1da33c-96e7-403f-9fc8-e4cb8729b081": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "leaf",
+            "text": "Reduce Waste, Print at Home"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "00b9525e-c3bd-4bf9-84d6-77257fef7a17": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "14aeb9d8-fbe0-4a1b-bb62-05f25738cd01": {
+          "type": "share",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "bf5cc6dd-0115-44ee-a720-03444424b9cd",
+        "sales_point",
+        "da1da33c-96e7-403f-9fc8-e4cb8729b081",
+        "buy_buttons",
+        "description",
+        "00b9525e-c3bd-4bf9-84d6-77257fef7a17",
+        "14aeb9d8-fbe0-4a1b-bb62-05f25738cd01"
+      ],
+      "settings": {
+        "product_image_size": "large",
+        "product_image_type": "slider",
+        "product_zoom_enable": true,
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "sku_enable": false
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "blocks": {
+        "71841978-32c5-4746-a050-b5027f85cd18": {
+          "type": "tab",
+          "settings": {
+            "title": "What's included?",
+            "content": "<p><strong>1 x <\/strong>PDF Digital Download<\/p>",
+            "page": ""
+          }
+        },
+        "31ea621c-af67-49d5-8397-e589e0d5d07d": {
+          "type": "tab",
+          "settings": {
+            "title": "How to redeem",
+            "content": "<p>Once you've picked your Activity Pack, simply add to cart, fill in your details and checkout as usual.<\/p><p>You'll be emailed a link when your Activity Pack is ready to download.<\/p><p>We want to see your creations and how well you get on. Tag us on Instagram @zonky.uk.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "71841978-32c5-4746-a050-b5027f85cd18",
+        "31ea621c-af67-49d5-8397-e589e0d5d07d"
+      ],
+      "settings": {
+        "max_width": true
+      }
+    },
+    "16324735209e07bd7b": {
+      "type": "apps",
+      "blocks": {
+        "1b6e4f08-d4ef-4b06-bdb9-987f94f0eec3": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "1b6e4f08-d4ef-4b06-bdb9-987f94f0eec3"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "163182147188e94095": {
+      "type": "featured-collection-slider",
+      "settings": {
+        "title": "FREE Downloads",
+        "description": "Why not get some more? For everyone to print and enjoy.",
+        "home_featured_products": "digital-downloads",
+        "per_row": "small",
+        "alt": false
+      }
+    },
+    "1631822106997ef628": {
+      "type": "slideshow",
+      "blocks": {
+        "1631822106997ef628-0": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 40,
+            "subheading": "",
+            "link": "shopify:\/\/products\/the-zonky-play-sofa",
+            "link_text": "Shop Zonky",
+            "color_accent": "#fbeded",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/Swamp_new-01_1.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Swamp-01_shadow_1ee0a3fb-31eb-45b1-9a21-21ddd9a67213.jpg",
+            "focal_point": "50% 90%"
+          }
+        }
+      },
+      "block_order": [
+        "1631822106997ef628-0"
+      ],
+      "settings": {
+        "style": "arrows",
+        "desktop_size": -10,
+        "mobile_size": 30,
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "16318215928c72c110": {
+      "type": "marquee",
+      "settings": {
+        "text": "Show off your creations on Instagram @zonky.uk 🍄 👀",
+        "link": "",
+        "text_size": 28,
+        "text_spacing": true,
+        "color_scheme": "button",
+        "direction": "left",
+        "speed": "slow"
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sub",
+    "16324735209e07bd7b",
+    "163182147188e94095",
+    "1631822106997ef628",
+    "16318215928c72c110",
+    "collection-return",
+    "product-recommendations"
+  ]
+}

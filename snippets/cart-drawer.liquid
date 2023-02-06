@@ -1,0 +1,232 @@
+{%- assign static_cart = false -%}
+{%- if cart.items.size < 3 -%}
+  {%- assign static_cart = true -%}
+{%- endif -%}
+{%- if additional_checkout_buttons and settings.cart_additional_buttons -%}
+  {%- assign static_cart = false -%}
+{%- endif -%}
+<div id="CartDrawer" class="drawer drawer--cart{% if static_cart %} drawer--cart--static{% endif %}" data-drawer="true">
+  <form id="CartDrawerForm" action="{{ routes.cart_url }}" method="post" novalidate class="drawer__contents{% if cart.items.size == 0 %} cart--empty{% endif %}">
+    <div class="drawer__header">
+      <div class="drawer__close text-right">
+        <button type="button" class="drawer__close-button js-drawer-close">
+          <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><path d="M19 17.61l27.12 27.13m0-27.12L19 44.74"/></svg>
+          <span class="icon__fallback-text">{{ 'cart.general.close_cart' | t }}</span>
+        </button>
+      </div>
+    </div>
+    <div class="drawer__inner">
+      <div class="drawer__scrollable">
+        <div data-products></div>
+        <div data-rebuy-id="65765"></div>
+        {%- if settings.cart_notes_enable -%}
+          <div class="cart__note" data-cart-note-container>
+            <label for="CartDrawerSpecialInstructions">{{ 'cart.general.note' | t }}</label>
+            <textarea name="note" class="input-full" id="CartDrawerSpecialInstructions" data-cart-note>{{ cart.note }}</textarea>
+          </div>
+        {%- endif -%}
+      </div>
+
+      <div class="drawer__footer cart__footer">
+        <div data-discounts>
+          {% if cart.cart_level_discount_applications != blank %}
+            <div class="cart__item-sub cart__item-row">
+              <div>{{ 'cart.general.discounts' | t }}</div>
+              <div class="text-right">
+                {% for cart_discount in cart.cart_level_discount_applications %}
+                  <div>
+                    {{ cart_discount.title }} (-{{ cart_discount.total_allocated_amount | money }})
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+          {% endif %}
+        </div>
+
+        <div class="cart__item-sub cart__item-row">
+          <div class="cart__subtotal">{{ 'cart.general.subtotal' | t }}</div>
+          <div data-subtotal>{{ cart.total_price | money }}</div>
+        </div>
+
+        <div class="cart__item-row cart__note text-center">
+          {{ 'cart.general.shipping_at_checkout' | t }}
+        </div>
+
+        {%- if settings.cart_terms_conditions_enable -%}
+          <p class="cart__note cart__terms">
+            <input type="checkbox" id="CartTermsDrawer" class="cart__terms-checkbox">
+            <label for="CartTermsDrawer">
+              {%- if settings.cart_terms_conditions_link != blank -%}
+                {{ 'cart.general.terms_html' | t: url: settings.cart_terms_conditions_link }}
+              {%- else -%}
+                {{ 'cart.general.terms' | t }}
+              {%- endif -%}
+            </label>
+          </p>
+        {%- endif -%}
+
+        <button type="submit" class="btn btn--full cart__checkout cart__checkout--drawer" name="checkout" data-terms-required="{{ settings.cart_terms_conditions_enable }}">
+          <span>{{ 'cart.general.checkout' | t }}</span>
+        </button>
+
+        {%- if additional_checkout_buttons and settings.cart_additional_buttons -%}
+          <div class="additional-checkout-buttons additional-checkout-buttons--vertical">{{ content_for_additional_checkout_buttons }}</div>
+        {%- endif -%}
+
+        {% comment %}
+          Uncomment to show continue shopping button
+        {% endcomment %}
+        {% comment %}
+          <a href="{{ routes.all_products_collection_url }}" class="btn btn--secondary btn--full">
+          {{ 'cart.general.continue_shopping' | t }}
+          </a>
+        {% endcomment %}
+      </div>
+
+    </div>
+    <div class="drawer__cart-empty text-center">
+      <p>{{ 'cart.general.empty' | t }}</p>
+      <p class="rte">{{ 'cart.general.continue_browsing_html' | t: url: routes.all_products_collection_url }}</p>
+    </div>
+  </form>
+</div>
+
+<style>
+  div[data-rebuy-id="65765"] h3.primary-title {
+    color: #fff;
+  }
+
+  div[data-rebuy-id="65765"] .rebuy-product-options option.disabled{
+    display:none;
+  }
+
+  .custom-cart-item small.cart__discount {
+    display: none;
+  }
+</style>
+
+<script>
+  const colorOBj = {};
+  var newColorArray = [];
+  let countryCode = "";
+  if (Shopify.country == "GB") {
+    countryCode = "GB";
+  } else {
+    countryCode = "NL";
+  }
+
+  let shopifySoreName = Shopify.shop;
+  let handle = "zonky-cover";
+  let infoURL = `https://api.locationinventory.info/inventory?shop=${shopifySoreName}&handle=zonky-cover`;
+  let filteredArraye = [];
+  async function checkFuncName(url) {
+    //console.log("code", countryCode);
+    const response = await fetch(url);
+    var data = await response.json();
+    let arr = data.variantLocations;
+    //console.log("array", arr);
+    for (let i = 0; i < arr.length; i++) {
+      let variant_id = arr[i].variant;
+      let locArray = arr[i].inventoryLocations;
+      for (let j = 0; j < locArray.length; j++) {
+        if (locArray[j].location.country == countryCode && locArray[j].quantity >= 1) {
+          filteredArraye.push(variant_id);
+        }
+      }
+    }
+    //console.log(filteredArraye, "filteredArray");
+    hideVarianteFn(filteredArraye);
+  }
+  checkFuncName(infoURL);
+
+  async function hideVarianteFn(filteredArraye) {
+    let varianturl = `/products/${handle}.js`;
+    const response = await fetch(varianturl);
+    let data = await response.json();
+    var compareArray = data.variants;
+    //console.log(compareArray, "compareArray");
+    for (let i = 0; i < filteredArraye.length; i++) {
+      for (let j = 0; j < compareArray.length; j++) {
+        if (filteredArraye[i] == compareArray[j].id) {
+          newColorArray.push(compareArray[j].title);
+        }
+      }
+    }
+    //console.log("colorArray", newColorArray);
+  };
+
+  function desableFunction() {
+    //console.log("colorArray", newColorArray);
+
+    for (let i = 0; i < newColorArray.length; i++) {
+      colorOBj[newColorArray[i]] = newColorArray[i];
+    }
+    //console.log("colorOBj", colorOBj);
+
+    let boxes = [...document.querySelectorAll('div[data-rebuy-id="65765"] select option')];
+    for (let j = 0; j < boxes.length; j++) {
+      let inner = boxes[j].innerText;
+      if (colorOBj[inner] === boxes[j].innerText) {
+        //console.log("available");
+      } else {
+        //console.log("not available", boxes[j]);
+        boxes[j].classList.add("disabled");
+      }
+    }
+  };
+
+  function waitForElem(waitFor, callback, minElements = 1, isVariable = false, timer = 10000, frequency = 25) {
+    let elements = isVariable
+      ? window[waitFor]
+      : document.querySelectorAll(waitFor);
+    if (timer <= 0) 
+      return;
+    
+
+    (! isVariable && elements.length >= minElements) || (isVariable && typeof window[waitFor] !== "undefined")
+      ? callback(elements)
+      : setTimeout(() => waitForElem(waitFor, callback, minElements, isVariable, timer - frequency), frequency);
+  }
+  document.body.addEventListener('click', (e) => {
+    if (e.target.closest('div[data-rebuy-id] button')) {
+      //console.log('got the selector');
+      waitForElem('div[data-rebuy-id] > div.is-hidden', (elem) => {
+        if (elem) {
+          location.reload();
+        }
+      })
+    }
+    if (document.querySelector('#CartDrawer.drawer--is-open')) {
+      waitForElem('div[data-rebuy-id="65765"] .rebuy-product-options', (elem) => {
+        if (elem) {
+          //console.log('enter');
+          desableFunction();
+        }
+      })
+    }
+  });
+
+  function checkDiscount() {
+    document.querySelectorAll('#CartDrawerForm div[data-products] .cart__item').forEach(item => {
+      if (item.querySelector('small.cart__discount .money') ?. innerText == '£0.00' && item.querySelector('.cart__item--name > a').innerText !== "Zonky Cover Set") {
+        item.classList.add('custom-cart-item');
+      }
+    });
+  };
+
+
+  const targetNode = document.querySelector('#CartDrawerForm div[data-products]');
+  const config = {
+    attributes: true,
+    childList: true,
+    subtree: false
+  };
+  const callback = (mutationList, observer) => {
+    checkDiscount();
+  };
+
+
+  const observer = new MutationObserver(callback);
+  observer.observe(targetNode, config);
+  checkDiscount();
+</script>

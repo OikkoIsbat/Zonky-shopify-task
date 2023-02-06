@@ -1,0 +1,76 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "ef8991e2-0abb-4c51-9770-1c511b6539c3": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        },
+        "c284f67e-2674-4390-8c61-867e61062118": {
+          "type": "tab",
+          "settings": {
+            "title": "How to redeem",
+            "content": "<p>Once you've received your gift card via email, simply enter the unique code at checkout when completing an order.<\/p><p>If you're purchasing for someone else, forward the digital gift card email to the recipient.<\/p>",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "ef8991e2-0abb-4c51-9770-1c511b6539c3",
+        "description",
+        "variant_picker",
+        "buy_buttons",
+        "c284f67e-2674-4390-8c61-867e61062118",
+        "share"
+      ],
+      "settings": {
+        "product_image_size": "large",
+        "product_image_type": "slider",
+        "product_zoom_enable": true,
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "sku_enable": false
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sub"
+  ]
+}

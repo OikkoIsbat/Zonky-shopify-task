@@ -1,0 +1,431 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "loox-rating": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "e6ca0f7d-bb49-4aa3-b133-ac6ec5fb952d": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 50,
+            "inventory_transfers_enable": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": true
+          }
+        },
+        "da1da33c-96e7-403f-9fc8-e4cb8729b081": {
+          "type": "sales_point",
+          "disabled": true,
+          "settings": {
+            "icon": "globe",
+            "text": "⅓ of Zonky profits donated to charity"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "36fb839d-952a-4f70-a4a1-fd932170579c": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "Dimensions",
+            "content": "<p><br\/><\/p><p>Standard sofa configuration:<br\/>140cm x 70cm x 49cm.<\/p><p><\/p>",
+            "page": ""
+          }
+        },
+        "14aeb9d8-fbe0-4a1b-bb62-05f25738cd01": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "loox-rating",
+        "e6ca0f7d-bb49-4aa3-b133-ac6ec5fb952d",
+        "inventory_status",
+        "variant_picker",
+        "da1da33c-96e7-403f-9fc8-e4cb8729b081",
+        "buy_buttons",
+        "description",
+        "36fb839d-952a-4f70-a4a1-fd932170579c",
+        "14aeb9d8-fbe0-4a1b-bb62-05f25738cd01"
+      ],
+      "settings": {
+        "product_image_size": "large",
+        "product_image_type": "slider",
+        "product_zoom_enable": true,
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "sku_enable": false
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "blocks": {
+        "1178e2ae-5efa-4107-8e9e-4f1027fe8889": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "71841978-32c5-4746-a050-b5027f85cd18": {
+          "type": "tab",
+          "settings": {
+            "title": "What's included?",
+            "content": "<p><strong>1 x <\/strong>Foldable Base, <strong>1 x <\/strong>Foldable Base Support, <strong>2 x<\/strong> Triangular Pillows, <strong>2 x<\/strong> Cuboid Pillows and an infinite potential for fun<\/p><p><\/p>",
+            "page": ""
+          }
+        },
+        "caeb0bb9-5f0d-4a46-b3fc-eabb8f1e81b0": {
+          "type": "tab",
+          "settings": {
+            "title": "Product Dimensions",
+            "content": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0530\/8776\/4646\/files\/Base_1_extended_136cm_x_68cm_x_14cm_1.png?v=1675183064\">",
+            "page": ""
+          }
+        },
+        "31ea621c-af67-49d5-8397-e589e0d5d07d": {
+          "type": "tab",
+          "settings": {
+            "title": "Delivery information",
+            "content": "<p>Currently shipping in <strong>1<\/strong> working days.<\/p><p>After processing, we aim to deliver within 1-3 days.<\/p><p>Your order will arrive in one box.<\/p><p><strong>Shipping box dimensions: <\/strong>70cm × 60cm × 56cm <br\/><br\/>We currently ship to the UK, Belgium, France, Germany, Italy, Spain, Netherlands, Ireland, Sweden, Portugal, Poland, Denmark, Austria, Isle of Man, Guernsey and Jersey — For our full shipping policy, <a href=\"\/policies\/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">click here<\/a>.<\/p>",
+            "page": ""
+          }
+        },
+        "e388bdd6-99b0-4b18-8b4b-9a543a8395e2": {
+          "type": "tab",
+          "settings": {
+            "title": "Quick FAQs",
+            "content": "<p><strong>Q: Why isn't the colour I want in stock?<\/strong><\/p><p>A: To know when your favourite colour will be back, sign up for restock alerts and subscribe to our newsletter.<\/p><p><strong>Q: How high are the base cushions from the ground?<\/strong><\/p><p>A: The foldable base is 14cm high, and the foldable base support is 7cm high.<\/p><p>To read more FAQs <a href=\"\/pages\/faqs\" title=\"FAQs\">click here<\/a>.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "1178e2ae-5efa-4107-8e9e-4f1027fe8889",
+        "71841978-32c5-4746-a050-b5027f85cd18",
+        "caeb0bb9-5f0d-4a46-b3fc-eabb8f1e81b0",
+        "31ea621c-af67-49d5-8397-e589e0d5d07d",
+        "e388bdd6-99b0-4b18-8b4b-9a543a8395e2"
+      ],
+      "settings": {
+        "max_width": true
+      }
+    },
+    "16385320551fc207d8": {
+      "type": "text-columns",
+      "disabled": true,
+      "blocks": {
+        "1638532055ab1f5ec0-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/8_21579729-7c40-494a-89bd-e91b35cfabfb.png",
+            "image_width": 60,
+            "title": "",
+            "text": "<p>Made in the UK<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1638532055ab1f5ec0-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/7_39a84ca4-eb05-40ba-adde-95c412cd52fa.png",
+            "image_width": 60,
+            "title": "",
+            "text": "<p>Promotes imagination<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "9cc87076-008f-45b9-8383-0f487db299b1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/6_e7fc8cc0-f2f5-45a6-a2df-8fdf54bcbc58.png",
+            "image_width": 60,
+            "title": "",
+            "text": "<p>commercial grade foam<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "4bff7474-4a7f-442a-87a6-b75a631d97d8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/5_01d605e7-d141-45d2-a1ae-fe3d21c9c8fb.png",
+            "image_width": 60,
+            "title": "",
+            "text": "<p>Removable, machine-washable covers<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1638532055ab1f5ec0-0",
+        "1638532055ab1f5ec0-1",
+        "9cc87076-008f-45b9-8383-0f487db299b1",
+        "4bff7474-4a7f-442a-87a6-b75a631d97d8"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "alt": false
+      }
+    },
+    "164639125741c1edd9": {
+      "type": "logo-list",
+      "blocks": {
+        "164639125747666d39-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/designedinuktext.png",
+            "link": ""
+          }
+        },
+        "164639125747666d39-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/promotesimaginationtext.png",
+            "link": ""
+          }
+        },
+        "164639125747666d39-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/easystoragetext.png",
+            "link": ""
+          }
+        },
+        "164639125747666d39-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/machinewashable_text.png",
+            "link": ""
+          }
+        },
+        "082c6a2a-4fac-4ee1-a776-7eb9fffe8f36": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/childsafetext.png",
+            "link": ""
+          }
+        },
+        "cab91513-5dcb-4c54-bac1-8ad47cc59792": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ratedfivestarstext.png",
+            "link": ""
+          }
+        },
+        "5dc72830-afb3-45dc-95d6-99ef2e8975a7": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/oekotextcertifiedtext.png",
+            "link": ""
+          }
+        },
+        "1fe2d7b7-abd7-4406-b2c4-f31ff313c0fa": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lightweighttext.png",
+            "link": ""
+          }
+        },
+        "8dd0482d-740d-4562-bb94-c894000c13e6": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/handlestext.png",
+            "link": ""
+          }
+        },
+        "7201cc4d-1d33-480d-adf5-ac37572b8cf1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/safehiddenzips.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164639125747666d39-0",
+        "164639125747666d39-1",
+        "164639125747666d39-2",
+        "164639125747666d39-3",
+        "082c6a2a-4fac-4ee1-a776-7eb9fffe8f36",
+        "cab91513-5dcb-4c54-bac1-8ad47cc59792",
+        "5dc72830-afb3-45dc-95d6-99ef2e8975a7",
+        "1fe2d7b7-abd7-4406-b2c4-f31ff313c0fa",
+        "8dd0482d-740d-4562-bb94-c894000c13e6",
+        "7201cc4d-1d33-480d-adf5-ac37572b8cf1"
+      ],
+      "settings": {
+        "title": "",
+        "logo_opacity": 100,
+        "alt": false
+      }
+    },
+    "1631821644309c5840": {
+      "type": "apps",
+      "blocks": {
+        "a6a37983-fdad-4301-854b-1ec160c4fbef": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 10,
+            "hide_thumbnails": false,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "a6a37983-fdad-4301-854b-1ec160c4fbef"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "16324113847545864b": {
+      "type": "slideshow",
+      "blocks": {
+        "16324113847545864b-0": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 40,
+            "subheading": "",
+            "link": "shopify:\/\/products\/digital-gift-card",
+            "link_text": "Shop Gift Cards",
+            "color_accent": "#b17715",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/Royal_2-01_shadow.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/throne_mobile-01.jpg",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16324113847545864b-0"
+      ],
+      "settings": {
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "16318215928c72c110": {
+      "type": "marquee",
+      "settings": {
+        "text": "Don't forget your freebies 👇",
+        "link": "",
+        "text_size": 30,
+        "text_spacing": true,
+        "color_scheme": "button",
+        "direction": "left",
+        "speed": "normal"
+      }
+    },
+    "163182147188e94095": {
+      "type": "featured-collection-slider",
+      "settings": {
+        "title": "FREE Downloads",
+        "description": "Build Guides, Activity Packs & more!",
+        "home_featured_products": "digital-downloads",
+        "per_row": "small",
+        "alt": false
+      }
+    },
+    "loox-product-reviews-app-section": {
+      "type": "apps",
+      "blocks": {
+        "loox-product-reviews": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "loox-product-reviews"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sub",
+    "16385320551fc207d8",
+    "164639125741c1edd9",
+    "1631821644309c5840",
+    "16324113847545864b",
+    "16318215928c72c110",
+    "163182147188e94095",
+    "loox-product-reviews-app-section",
+    "collection-return",
+    "product-recommendations"
+  ]
+}

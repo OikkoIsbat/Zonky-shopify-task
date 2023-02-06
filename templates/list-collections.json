@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "163241069116f7e618": {
+      "type": "slideshow",
+      "blocks": {
+        "163241069116f7e618-0": {
+          "type": "image",
+          "settings": {
+            "title": "<h1>Free Digital \nDownloads<\/h1>",
+            "title_size": 67,
+            "subheading": "for everyone to enjoy!",
+            "link": "",
+            "link_text": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-top horizontal-left",
+            "image": "shopify:\/\/shop_images\/Space_3-01_shadow.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Space_3-01_shadow_76cd07a0-f7ab-47ba-9950-2bf38f12523b.jpg",
+            "focal_point": "50% 90%"
+          }
+        }
+      },
+      "block_order": [
+        "163241069116f7e618-0"
+      ],
+      "settings": {
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "main": {
+      "type": "list-collections-template",
+      "disabled": true,
+      "settings": {
+        "title_enable": false,
+        "display_type": "all",
+        "sort": "alphabetical"
+      }
+    },
+    "1631823201e369387a": {
+      "type": "featured-collection-slider",
+      "settings": {
+        "title": "Activity Packs",
+        "description": "Beat boredom and get entertained with a new Activity Pack every month. Full of fun puzzles, colouring, fun-facts and more!",
+        "home_featured_products": "activity-packs",
+        "per_row": "small",
+        "alt": false
+      }
+    },
+    "1634035067fafd1466": {
+      "type": "featured-collection-slider",
+      "settings": {
+        "title": "#ZonkyBuilds",
+        "description": "Need some inspiration? We've got you! Discover new possibilities with some of our favourite builds.",
+        "home_featured_products": "build-guides",
+        "per_row": "small",
+        "alt": false
+      }
+    }
+  },
+  "order": [
+    "163241069116f7e618",
+    "main",
+    "1631823201e369387a",
+    "1634035067fafd1466"
+  ]
+}

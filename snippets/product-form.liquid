@@ -1,0 +1,117 @@
+{% if product.type=='PDF' %}
+<a href="{{product.metafields.product.ebook_download_url}}" class="custom-free-download-button">
+  <span>
+    Download now
+  </span>
+</a>
+{% endif %}
+{%if product.type !='PDF'%}
+{% form 'product', product, id: form_id, class: 'product-single__form small--text-center' %}
+  <input type="hidden" name="data-product-id" value="{{ product.id }}" ">
+  {%- liquid
+    assign enable_dynamic_buttons = false
+    if show_dynamic_checkout and template != 'product.preorder'
+      assign enable_dynamic_buttons = true
+    endif
+  -%}
+  {%- if enable_dynamic_buttons -%}
+    <div class="payment-buttons">
+  {%- endif -%}
+    {%- liquid
+      assign default_text = 'products.product.add_to_cart' | t
+      assign button_text = 'products.product.add_to_cart' | t
+      if template == 'product.preorder'
+        assign default_text = 'products.product.preorder' | t
+        assign button_text = 'products.product.preorder' | t
+      endif
+      unless current_variant.available
+        assign button_text = 'products.product.sold_out' | t
+      endunless
+    -%}
+      <button
+      {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}
+      name="add"
+      data-add-to-cart
+      class="btn btn--full add-to-cart{% if enable_dynamic_buttons and product.selling_plan_groups == empty %} btn--tertiary{% endif %}"
+      {% unless current_variant.available %} disabled="disabled"{% endunless %}>
+      <span data-add-to-cart-text data-default-text="{{ default_text }}">
+        {{ button_text }}
+      </span>
+      </button>
+    {%- if enable_dynamic_buttons -%}
+      {{ form | payment_button }}
+    {%- endif -%}
+  {%- if enable_dynamic_buttons -%}
+    </div>
+  {%- endif -%}
+  <div class="shopify-payment-terms product__policies">{{ form | payment_terms }}</div>
+  <select name="id" id="ProductSelect-{{ section_id }}" class="product-single__variants no-js" data-product-select>
+    {%- for variant in product.variants -%}
+      {%- if variant.available -%}
+        <option value="{{ variant.id }}"{% if variant == product.selected_or_first_available_variant %}
+          selected="selected"{% endif %}>
+          {{ variant.title }} - {{ variant.price | money_with_currency }}
+        </option>
+      {%- else -%}
+        <option disabled="disabled">
+          {{ variant.title }} - {{ 'products.product.sold_out' | t }}
+        </option>
+      {%- endif -%}
+    {%- endfor -%}
+  </select>
+  {%- unless product.empty? -%}
+    <textarea class="hide" aria-hidden="true" aria-label="Product JSON" data-variant-json>
+      {{ product.variants | json }}
+    </textarea>
+    {%- if product.options.size > 1 -%}
+      <textarea class="hide" aria-hidden="true" aria-label="Variant JSON" data-current-variant-json>
+        {{ current_variant | json }}
+      </textarea>
+    {%- endif -%}
+  {%- endunless -%}
+{% endform %}
+{% render 'banana-stand-product-page-container' %}
+{% endif %}
+<style>
+  .custom-free-download-button{
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFF;
+    background: #479ccf;
+    padding: 12px 30px;
+    line-height: 16px;
+    font-size: 16px;
+    display: block;
+    border-radius: 4px;
+    text-transform:uppercase;
+    text-align:center;
+  }
+  .custom-free-download-button:hover{
+    color: #FFF;
+  }
+</style>
+<script>
+
+  document.addEventListener('inventoryInfo.locationRuleApplied', function(e) {
+
+    if(e.detail.outOfStock == true){
+      document.querySelector('.add-to-cart span').innerText = 'Sold Out';
+    };
+  });
+
+
+  if(document.querySelector(`.custom-free-download-button`)){
+      document.querySelector(`.custom-free-download-button`).addEventListener('click',(e)=>{
+    (function pollFor(){
+      if(document.querySelector(`body`).classList.contains('unloading')){
+        setTimeout(()=>{
+          document.querySelector(`body`).classList.remove('unloading'); 
+        },1000)
+      }else{
+        setTimeout(pollFor,25);
+      }
+    })();
+  });
+  }
+
+</script>
