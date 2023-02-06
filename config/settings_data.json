@@ -1,0 +1,577 @@
+{
+  "current": {
+    "color_body_bg": "#fbeded",
+    "color_body_text": "#333029",
+    "color_button": "#38aa92",
+    "color_button_text": "#ffffff",
+    "color_sale_price": "#333029",
+    "color_sale_tag": "#ff5350",
+    "color_cart_dot": "#ff6d6d",
+    "color_cart_dot_text": "#ffffff",
+    "color_alt_bg": "#ffffff",
+    "color_alt_text": "#333029",
+    "color_announcement": "#cf9ebf",
+    "color_announcement_text": "#ffffff",
+    "color_newsletter": "#38aa92",
+    "color_newsletter_text": "#ffffff",
+    "color_drawer_background": "#fbeded",
+    "color_drawer_text": "#333029",
+    "color_image_text": "#fbeded",
+    "color_image_overlay": "#ecb534",
+    "color_image_overlay_opacity": 0,
+    "color_image_overlay_text_shadow": 0,
+    "color_small_image_bg": "#fdfbfa",
+    "color_large_image_bg": "#eee5e0",
+    "type_header_font_family": "century_gothic_n7",
+    "type_header_capitalize": false,
+    "type_header_spacing": 25,
+    "type_header_base_size": 43,
+    "type_header_line_height": 1.1,
+    "type_base_font_family": "karla_n4",
+    "type_product_capitalize": false,
+    "type_base_spacing": 25,
+    "type_base_size": 18,
+    "type_base_line_height": 1.7,
+    "button_type_style": "caps",
+    "button_style": "shadow",
+    "animate_images": true,
+    "logo_loader_image": "shopify:\/\/shop_images\/Royal_Castle_1_cca0d5b3-2216-4009-a1f0-663f54ae3fc9.png",
+    "desktop_loader_width": 120,
+    "mobile_loader_width": 100,
+    "product_hover_details": false,
+    "product_hover_image": true,
+    "product_image_scatter": false,
+    "product_grid_image_size": "natural",
+    "vendor_enable": false,
+    "product_save_type": "percent",
+    "enable_swatches": true,
+    "quick_shop_enable": false,
+    "quick_shop_style": "full",
+    "cart_type": "drawer",
+    "cart_additional_buttons": true,
+    "social_instagram_link": "https:\/\/www.instagram.com\/zonky.uk\/",
+    "social_facebook_link": "https:\/\/www.facebook.com\/Zonky-UK-101566965589737",
+    "social_twitter_link": "https:\/\/twitter.com\/UkZonky",
+    "social_tiktok_link": "https:\/\/www.tiktok.com\/@zonkyuk",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCosdojzLad_JFDsaGzPtOOA",
+    "favicon": "shopify:\/\/shop_images\/Untitled_design_6.png",
+    "search_type": "product,article,page",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Royal_Castle_1_cca0d5b3-2216-4009-a1f0-663f54ae3fc9.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_color": "#fbeded",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#ffffff",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#333029",
+    "checkout_button_color": "#38aa92",
+    "checkout_error_color": "#ff5350",
+    "scm_pl_piregex": ".product-main-slide .lazyloaded",
+    "animate_page_transition_style": "page-logo",
+    "checkout_banner_background_color": "#ffffff",
+    "checkout_call_to_action_color": "#a26b25",
+    "checkout_use_header_image": false,
+    "product_video_style": "muted",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "header_style": "button",
+          "main_menu_alignment": "right",
+          "sticky_index": false,
+          "sticky_collection": false,
+          "header_search_enable": true,
+          "logo": "shopify:\/\/shop_images\/Royal_Castle_1_cca0d5b3-2216-4009-a1f0-663f54ae3fc9.png",
+          "desktop_logo_width": 110,
+          "mobile_logo_width": 100,
+          "logo_hide_mobile": false,
+          "main_menu_link_list": "zk2",
+          "show_announcement": true,
+          "show_announcement_home_only": false,
+          "announcement_text": "Free delivery to Great Britain and EU",
+          "announcement_link": "shopify:\/\/policies\/shipping-policy"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "show_newsletter": true,
+          "newsletter_title": "Join the Community",
+          "newsletter_richtext": "<p>Sign up to get updates, news and fun resources for kids & parents. <\/p><p>We'll never send you spam. Promise.<\/p>",
+          "show_locale_selector": true,
+          "show_currency_selector": false,
+          "show_currency_flags": false,
+          "show_social_icons": true,
+          "menu": "footer",
+          "show_payment_icons": false,
+          "show_copyright": true,
+          "copyright_text": "| Loft25 Limited, All Rights Reserved"
+        }
+      },
+      "newsletter-popup": {
+        "type": "newsletter-popup",
+        "settings": {
+          "mode": "enabled",
+          "popup_seconds": 5,
+          "popup_days": 5,
+          "popup_title": "Sign up to keep up...",
+          "popup_text": "<p>You'll get updates, news & fun resources for kids and parents straight to your inbox.<\/p>",
+          "enable_newsletter": true,
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true
+        }
+      },
+      "social": {
+        "type": "social",
+        "blocks": {
+          "63a5d39b-4a8b-467e-bc1b-7bc98b3107f7": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/kerriandamyschildminding.jpg",
+              "link": "https:\/\/zonky.uk\/products\/the-zonky-2-0",
+              "product": "",
+              "account": "@kerri_and_amys_childminding",
+              "caption": "",
+              "likes": ""
+            }
+          },
+          "dc904b7d-3995-48eb-a9c6-96b68199a034": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Jennie_box_jens_den09_-_1_847bf318-4471-4d1c-80a2-bb538d029a18.jpg",
+              "link": "https:\/\/zonky.uk\/products\/the-zonky-2-0",
+              "product": "",
+              "account": "@jens_den09",
+              "caption": "",
+              "likes": ""
+            }
+          },
+          "bbefc622-466d-497a-a248-e89188604c23": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/littleowain.jpg",
+              "link": "https:\/\/zonky.uk\/products\/the-zonky-2-0",
+              "product": "",
+              "account": "@littleowain",
+              "caption": "",
+              "likes": ""
+            }
+          },
+          "826e81b3-24a7-41c8-82c3-ce2c484d9e6d": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banana_zonky.jpg",
+              "link": "https:\/\/zonky.uk\/products\/the-zonky-2-0",
+              "product": "",
+              "account": "@travelwithkwen",
+              "caption": "",
+              "likes": ""
+            }
+          },
+          "f34f490b-f74a-4a14-ac35-fa3d06a2ffaf": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/kale_zonky.jpg",
+              "link": "https:\/\/zonky.uk\/products\/the-zonky-2-0",
+              "product": "",
+              "account": "@athomewithellesmith",
+              "caption": "",
+              "likes": ""
+            }
+          },
+          "547b674b-352a-4979-8353-8e74e73f8efe": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/thearyleigh.jpg",
+              "link": "https:\/\/zonky.uk\/products\/the-zonky-2-0ofa?variant=41002337665190",
+              "product": "",
+              "account": "@thearyleigh",
+              "caption": "",
+              "likes": ""
+            }
+          },
+          "b52b0dd1-757a-4a20-bf92-5aee1d0bf308": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/60DCC9E1-2A37-4F81-81EC-31D4CC2F30Bs2.jpg",
+              "link": "https:\/\/zonky.uk\/products\/the-zonky-2-0",
+              "product": "",
+              "account": "@kim_mcc89",
+              "caption": "",
+              "likes": ""
+            }
+          },
+          "146a5656-db07-4dc5-9ea2-40ba43ec700d": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Hayley_-_20211024_091003.jpg",
+              "link": "https:\/\/zonky.uk\/products\/the-zonky-2-0",
+              "product": "",
+              "account": "@homewith_hayley",
+              "caption": "",
+              "likes": ""
+            }
+          },
+          "d3ebe409-9f75-43df-83a1-904ecaa51838": {
+            "type": "post",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Katie_Maxwell_-_1729c730-626b-429e-bee3-6fd648d4a3be.jpg",
+              "link": "https:\/\/zonky.uk\/products\/the-zonky-2-0",
+              "product": "",
+              "account": "@katie_andher.kids",
+              "caption": "",
+              "likes": ""
+            }
+          }
+        },
+        "block_order": [
+          "63a5d39b-4a8b-467e-bc1b-7bc98b3107f7",
+          "dc904b7d-3995-48eb-a9c6-96b68199a034",
+          "bbefc622-466d-497a-a248-e89188604c23",
+          "826e81b3-24a7-41c8-82c3-ce2c484d9e6d",
+          "f34f490b-f74a-4a14-ac35-fa3d06a2ffaf",
+          "547b674b-352a-4979-8353-8e74e73f8efe",
+          "b52b0dd1-757a-4a20-bf92-5aee1d0bf308",
+          "146a5656-db07-4dc5-9ea2-40ba43ec700d",
+          "d3ebe409-9f75-43df-83a1-904ecaa51838"
+        ],
+        "settings": {
+          "enable_home": true,
+          "enable_product": true,
+          "enable_collection": true,
+          "title": "Build it, Snap it, Tag it.",
+          "description": "<p>Show off your creations on Instagram and tag us to be featured.<\/p>"
+        }
+      },
+      "giftcard-header": {
+        "type": "giftcard-header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Royal_Castle_1_cca0d5b3-2216-4009-a1f0-663f54ae3fc9.png",
+          "desktop_logo_width": 160,
+          "mobile_logo_width": 140
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "1347510106265755124": {
+        "type": "shopify:\/\/apps\/essential-countdown-timer\/blocks\/app_embed\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "1513253815146976218": {
+        "type": "shopify:\/\/apps\/omnisend-email-marketing-sms\/blocks\/app-embed\/44704aa2-794f-4c5d-8c8e-039c841158e9",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "5803399549441092565": {
+        "type": "shopify:\/\/apps\/multi-location-inventory-info\/blocks\/app-embed\/982328e1-99f7-4a7e-8266-6aed71bf0021",
+        "disabled": false,
+        "settings": {
+          "syncLoad": true,
+          "collectionMapping": false,
+          "customerTagMapping": false,
+          "productIdentifier": true,
+          "collectionPages": true
+        }
+      }
+    }
+  },
+  "presets": {
+    "Core": {
+      "animate_images": true,
+      "animate_page_transition_style": "page-logo",
+      "button_style": "round",
+      "button_type_style": "normal",
+      "cart_type": "sticky",
+      "checkout_accent_color": "#111111",
+      "checkout_banner_background_color": "#ffffff",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_button_color": "#111111",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_error_color": "#ff6d6d",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_input_background_color_mode": "white",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_use_header_image": false,
+      "color_alt_bg": "#f9f9f9",
+      "color_alt_text": "#000000",
+      "color_announcement": "#000000",
+      "color_announcement_text": "#ffffff",
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#000000",
+      "color_button": "#000000",
+      "color_button_text": "#ffffff",
+      "color_cart_dot": "#f75d44",
+      "color_cart_dot_text": "#ffffff",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_image_overlay": "#000000",
+      "color_image_overlay_opacity": 10,
+      "color_image_overlay_text_shadow": 20,
+      "color_image_text": "#ffffff",
+      "color_large_image_bg": "#000000",
+      "color_newsletter": "#000000",
+      "color_newsletter_text": "#fff",
+      "color_sale_price": "#000000",
+      "color_sale_tag": "#990000",
+      "color_small_image_bg": "#ffffff",
+      "desktop_loader_width": 100,
+      "mobile_loader_width": 100,
+      "product_grid_image_size": "natural",
+      "product_hover_details": false,
+      "product_hover_image": true,
+      "product_image_scatter": false,
+      "product_video_style": "muted",
+      "type_base_font_family": "roboto_condensed_n4",
+      "type_base_line_height": 1.6,
+      "type_base_size": 18,
+      "type_base_spacing": "25",
+      "type_header_base_size": 46,
+      "type_header_capitalize": true,
+      "type_header_font_family": "roboto_condensed_i7",
+      "type_header_line_height": 1,
+      "type_header_spacing": "-25",
+      "type_product_capitalize": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "sticky_index": true,
+            "sticky_collection": false,
+            "header_search_enable": true,
+            "show_announcement": false,
+            "show_announcement_home_only": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "settings": {
+            "show_newsletter": true,
+            "show_social_icons": true,
+            "menu": "footer",
+            "newsletter_title": "Join the club",
+            "newsletter_richtext": "",
+            "show_payment_icons": false,
+            "show_copyright": false
+          }
+        },
+        "newsletter-popup": {
+          "type": "newsletter-popup",
+          "settings": {
+            "mode": "disabled",
+            "popup_seconds": 5,
+            "popup_days": 30,
+            "enable_newsletter": true
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true
+          }
+        }
+      }
+    },
+    "Luxe": {
+      "animate_images": true,
+      "animate_page_transition_style": "page-logo",
+      "button_style": "shadow",
+      "cart_type": "sticky",
+      "checkout_accent_color": "#111111",
+      "checkout_banner_background_color": "#ffffff",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_button_color": "#111111",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_error_color": "#ff6d6d",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_input_background_color_mode": "white",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_use_header_image": false,
+      "color_alt_bg": "#ffffff",
+      "color_alt_text": "#333029",
+      "color_announcement": "#c67066",
+      "color_announcement_text": "#ffffff",
+      "color_body_bg": "#fdfbfa",
+      "color_body_text": "#333029",
+      "color_button": "#c67066",
+      "color_button_text": "#ffffff",
+      "color_cart_dot": "#c67066",
+      "color_drawer_background": "#fdf9f5",
+      "color_drawer_text": "#333029",
+      "color_image_bg": "#000000",
+      "color_image_overlay": "#000000",
+      "color_image_overlay_opacity": 10,
+      "color_image_text": "#ffffff",
+      "color_large_image_bg": "#eee5e0",
+      "color_newsletter": "#c67066",
+      "color_newsletter_text": "#ffffff",
+      "color_sale_price": "#333029",
+      "color_sale_tag": "#c67066",
+      "color_small_image_bg": "#fdfbfa",
+      "desktop_loader_width": 140,
+      "mobile_loader_width": 130,
+      "product_grid_image_size": "natural",
+      "product_hover_details": true,
+      "product_hover_image": true,
+      "product_image_scatter": false,
+      "product_video_style": "muted",
+      "type_base_font_family": "futura_n4",
+      "type_base_line_height": 1.7,
+      "type_base_size": 18,
+      "type_base_spacing": "25",
+      "type_header_base_size": 50,
+      "type_header_capitalize": false,
+      "type_header_font_family": "itc_novarese_n5",
+      "type_header_line_height": 1.1,
+      "type_header_spacing": "0",
+      "type_product_capitalize": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "sticky_index": true,
+            "sticky_collection": true,
+            "header_search_enable": true,
+            "show_announcement": true,
+            "show_announcement_home_only": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "settings": {
+            "show_newsletter": true,
+            "show_social_icons": true,
+            "show_payment_icons": false,
+            "show_copyright": false
+          }
+        },
+        "newsletter-popup": {
+          "type": "newsletter-popup",
+          "settings": {
+            "mode": "disabled",
+            "popup_seconds": 5,
+            "popup_days": 30,
+            "enable_newsletter": true
+          }
+        },
+        "password-header": {
+          "type": "password-header",
+          "settings": {
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true
+          }
+        }
+      }
+    },
+    "Hype": {
+      "animate_images": false,
+      "animate_page_transition_style": "page-logo",
+      "button_style": "shadow",
+      "cart_type": "sticky",
+      "checkout_accent_color": "#111111",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_input_background_color_mode": "white",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_sidebar_background_color": "#fafafa",
+      "color_alt_bg": "#000000",
+      "color_alt_text": "#ffffff",
+      "color_announcement": "#000000",
+      "color_announcement_text": "#ffffff",
+      "color_body_bg": "#ffffff",
+      "color_cart_dot": "#FF2300",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_image_bg": "#000000",
+      "color_image_overlay": "#000000",
+      "color_image_overlay_opacity": 10,
+      "color_image_text": "#ffffff",
+      "color_large_image_bg": "#000000",
+      "color_newsletter": "#000000",
+      "color_newsletter_text": "#ffffff",
+      "color_small_image_bg": "#f2f2f2",
+      "desktop_loader_width": 190,
+      "mobile_loader_width": 180,
+      "product_grid_image_size": "natural",
+      "product_hover_details": false,
+      "product_hover_image": true,
+      "product_image_scatter": true,
+      "product_video_style": "muted",
+      "type_base_font_family": "basic_commercial_n7",
+      "type_base_line_height": 1.3,
+      "type_base_size": 20,
+      "type_base_spacing": "25",
+      "type_header_base_size": 48,
+      "type_header_capitalize": true,
+      "type_header_font_family": "basic_commercial_n7",
+      "type_header_line_height": 0.9,
+      "type_header_spacing": "25",
+      "type_product_capitalize": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "sticky_index": true,
+            "sticky_collection": true,
+            "header_search_enable": true,
+            "show_announcement": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "settings": {
+            "show_newsletter": false
+          }
+        },
+        "newsletter-popup": {
+          "type": "newsletter-popup",
+          "settings": {
+            "mode": "disabled",
+            "popup_seconds": 5,
+            "popup_days": 30,
+            "enable_newsletter": true
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true
+          }
+        }
+      }
+    }
+  }
+}

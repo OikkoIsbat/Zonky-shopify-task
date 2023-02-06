@@ -1,0 +1,1897 @@
+{
+  "shopify": {
+    "sentence": {
+      "words_connector": ",",
+      "two_words_connector": "en",
+      "last_word_connector": ", en"
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Uitchecken",
+        "error_page_title": "Fout",
+        "skip_to_content": "Doorgaan naar artikel",
+        "breadcrumb": "broodkruimel",
+        "continue_button_label": "Doorgaan",
+        "complete_purchase_button_label": "Maak bestelling af",
+        "pay_now_button_label": "Nu betalen",
+        "authenticate_purchase_button_label": "Betaling verifiëren",
+        "edit_link_label": "Bewerk",
+        "all_rights_reserved": "Alle rechten voorbehouden %{shop_name}",
+        "print_policies_link_label": "Afdrukken",
+        "cart": "Winkelwagen",
+        "close_modal_label": "Dichtbij",
+        "close_notice_label": "Dichtbij",
+        "expand_notice_label": "Bekijk meer",
+        "continue_to_shipping_method": "Ga verder met verzenden",
+        "continue_to_payment_method": "Doorgaan naar betalen",
+        "continue_to_review": "Bestelling bekijken",
+        "back_to_cart": "Terug naar winkelwagen",
+        "back_to_contact_information": "Terug naar informatie",
+        "back_to_shipping_method": "Keer terug naar verzending",
+        "back_to_payment_method": "Keer terug naar betalen",
+        "choose_shipping_method": "Kies een verzendmethode",
+        "choose_payment_method": "Kies een betaal methode",
+        "choose_billing_address": "kies een factuuradres",
+        "contact_us_html": "Neem contact met ons op voor meer informatie",
+        "autocomplete_title": "Suggesties",
+        "autocomplete_single_item": "1 artikel beschikbaar",
+        "autocomplete_multi_item": "{{number}} items beschikbaar",
+        "autocomplete_close": "Suggesties sluiten",
+        "forwarding_indicator": {
+          "new_window": "Opent in een nieuw venster.",
+          "external": "Opent externe website.",
+          "external_and_new_window": "Opent externe website in een nieuw venster."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Afrekenen"
+        },
+        "tooltip_accessibility_label": "Meer informatie",
+        "errors": {
+          "session_identifier_not_unique_error": "Er is iets misgegaan met je bestelling, probeer opnieuw uit te checken.",
+          "line_item_limit_reached": "Het maximum aantal regelitems is bereikt."
+        },
+        "full_price": "Volle prijs:"
+      },
+      "contact": {
+        "title": "Informatie",
+        "address_title": "Adres",
+        "shipping_address_title": "Verzendingsadres",
+        "delivery_option_title": "Leveringsmethode",
+        "contact_method_title": "Contactgegevens",
+        "email_label": "E-mail",
+        "email_placeholder": "E-mail",
+        "email_or_phone_label": "E-mail of mobiel telefoonnummer",
+        "email_or_phone_placeholder": "E-mail of mobiel telefoonnummer",
+        "stored_addresses_label": "Opgeslagen adressen",
+        "new_address_label": "Gebruik een nieuw adres",
+        "first_name_label": "Voornaam",
+        "optional_first_name_label": "Voornaam (optioneel)",
+        "last_name_label": "Achternaam",
+        "company_label": "Bedrijf",
+        "optional_company_label": "bedrijf (optioneel)",
+        "address1_label": "Adres",
+        "address2_label": "Appartement, suite, enz.",
+        "optional_address2_label": "Appartement, suite, etc. (optioneel)",
+        "city_label": "Stad",
+        "country_label": "Land\/Regio",
+        "country_code": "Land-\/regiocode",
+        "province_label": "Provincie",
+        "province_placeholder": "Provincie",
+        "county_label": "District",
+        "county_placeholder": "District",
+        "state_label": "Staat",
+        "state_placeholder": "Staat",
+        "region_label": "Regio",
+        "region_placeholder": "Regio",
+        "region_none": "Geen geselecteerd",
+        "prefecture_label": "Prefectuur",
+        "prefecture_placeholder": "Prefectuur",
+        "governorate_label": "gouvernement",
+        "governorate_placeholder": "gouvernement",
+        "emirate_label": "emiraat",
+        "emirate_placeholder": "emiraat",
+        "state_and_territory_label": "Staat\/territorium",
+        "state_and_territory_placeholder": "Staat\/territorium",
+        "phone_label": "Telefoon",
+        "optional_phone_label": "Telefoon optioneel)",
+        "phone_placeholder": "Telefoon",
+        "phone_tooltip": "In het geval dat we contact met u moeten opnemen over uw bestelling",
+        "zip_code_label": "postcode",
+        "zip_code_placeholder": "postcode",
+        "postal_code_label": "Postcode",
+        "postal_code_placeholder": "Postcode",
+        "postcode_label": "Postcode",
+        "postcode_placeholder": "Postcode",
+        "pincode_label": "Pincode",
+        "pincode_placeholder": "Pincode",
+        "civic_number_warning": "Voeg eventueel een huisnummer toe"
+      },
+      "delivery_options": {
+        "free_total_label": "Vrij",
+        "ship": "Schip",
+        "shipping_address": "Verzendingsadres",
+        "pick_up": "Oppakken",
+        "pick_up_locations": "Ophaallocaties",
+        "pick_up_in_one_hour": "Meestal klaar in 1 uur",
+        "pick_up_in_two_hours": "Meestal klaar in 2 uur",
+        "pick_up_in_four_hours": "Meestal klaar in 4 uur",
+        "pick_up_in_twenty_four_hours": "Meestal binnen 24 uur klaar",
+        "pick_up_in_two_to_four_days": "Meestal klaar in 2-4 dagen",
+        "pick_up_in_five_or_more_days": "Meestal klaar in 5+ dagen",
+        "pick_up_in_zero_to_two_hours": "Klaar om opgehaald te worden in 2 uur",
+        "pick_up_in_two_to_four_hours": "Klaar om opgehaald te worden in 4 uur",
+        "pick_up_immediately": "Nu klaar om af te halen",
+        "pick_up_next_day": "Klaar om de volgende dag opgehaald te worden"
+      },
+      "customer_account": {
+        "not_user_label": "Niet %{first_name}?",
+        "have_an_account_label": "Heb je al een account?",
+        "sign_in_link_label": "Log in",
+        "sign_out_link_label": "Uitloggen",
+        "save_my_information_label": "Bewaar deze informatie voor de volgende keer"
+      },
+      "stock": {
+        "page_title": "Voorraad problemen",
+        "title": "Geen voorraad meer",
+        "items_unavailable_notice": "Sommige artikelen zijn niet meer leverbaar. Uw winkelwagen is bijgewerkt.",
+        "product_column_header": "Producten",
+        "quantity_column_header": "Hoeveelheid",
+        "price_column_header": "Prijs",
+        "status_column_header": "Toestand",
+        "removed_from_cart_notice": "Verwijderd uit winkelwagen",
+        "sold_out_label": "Uitverkocht",
+        "reduced_label": "Verminderd",
+        "reduced_with_quantity_label": "Nog maar %{quantity_available} over",
+        "remove_from_cart_button_label": "Verwijderen uit winkelwagen",
+        "continue_shopping_button_label": "Doorgaan",
+        "go_back_to_cart_button_label": "Ga terug naar mijn winkelwagen"
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Product niet beschikbaar",
+          "other": "Producten niet beschikbaar"
+        },
+        "products_not_available": {
+          "one": "Dit product wordt uit uw winkelwagen verwijderd omdat het niet beschikbaar is in uw land\/regio.",
+          "other": "Deze producten worden uit uw winkelwagen verwijderd omdat ze niet beschikbaar zijn in uw land\/regio."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Dit product is niet beschikbaar in uw land\/regio.",
+          "other": "Deze producten zijn niet beschikbaar in uw land\/regio."
+        },
+        "unavailable_label": "Niet beschikbaar"
+      },
+      "order_summary": {
+        "title": "Overzicht van de bestelling",
+        "order_name_label": "Bestelling %{name}",
+        "shopping_cart_label": "Winkelwagen",
+        "discount_title": "Korting",
+        "discount_label": "Kortingscode",
+        "discount_placeholder": "Kortingscode",
+        "gift_card_title": "Cadeaukaart",
+        "gift_card_label": "Cadeaukaart",
+        "gift_card_placeholder": "Cadeaukaart",
+        "gift_card_and_discount_title": "Cadeaubon of kortingscode",
+        "gift_card_and_discount_label": "Cadeaubon of kortingscode",
+        "gift_card_and_discount_placeholder": "Cadeaubon of kortingscode",
+        "remove_gift_card_label": "Cadeaukaart wissen",
+        "remove_discount_label": "Korting verwijderen",
+        "free_shipping_discount_label": "Gratis verzending",
+        "applied_free_shipping_discount_label": "Toegepast",
+        "apply_discount_button_label": "Van toepassing zijn",
+        "applied_discount_message": "%{amount} korting op de totale bestelprijs",
+        "discount_has_been_applied": "Korting is toegepast",
+        "discount_has_been_removed": "Korting is verwijderd",
+        "gift_card_has_been_applied": "Cadeaubon is toegepast",
+        "gift_card_has_been_removed": "Cadeaubon is verwijderd",
+        "gift_card_subscriptions_notice": "Cadeaubonnen zijn alleen van toepassing op uw eerste betaling",
+        "discount_already_applied": "Op deze bestelling is een korting toegepast. U kunt niet nog een korting toevoegen.",
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> kortingscode is niet geldig voor de artikelen in je winkelwagen",
+        "discount_requires_customer_notice": "Voer uw verzendgegevens in om de <strong style=\"text-transform:uppercase\">%{code}<\/strong> kortingscode toe te passen",
+        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> kortingscode is momenteel niet voor u beschikbaar",
+        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> kortingscode is niet beschikbaar voor uw verzendadres",
+        "customer_already_used_once_per_customer_discount_notice": "De <strong style=\"text-transform:uppercase\">%{code}<\/strong> kortingscode is al gebruikt",
+        "subtotal_label": "Subtotaal",
+        "shipping_label": "Verzenden",
+        "pickup_label": "Oppakken",
+        "no_pickup_location": "Je bestelling kan niet worden opgehaald. Vul een verzendadres in.",
+        "tip_label": "Tip",
+        "calculating_shipping": "Berekenen…",
+        "shipping_default_value": "Berekend bij volgende stap",
+        "shipping_pending_value": "—",
+        "shipping_pending_message": "Nog niet beschikbaar",
+        "shipping_policy_link": "Verzendkosten",
+        "taxes_label": "Belastingen",
+        "estimated_taxes_label": "Geschatte belastingen",
+        "information_estimated_taxes_label": "Belastingen (geschat)",
+        "estimated_taxes_finalization_tooltip_content": "De definitieve belasting en het totaalbedrag worden per e-mail of sms bevestigd nadat u uw bestelling heeft geplaatst.",
+        "order_total_label": "totale bestelling",
+        "total_label": "Totaal",
+        "total_outstanding_label": "Te betalen bedrag",
+        "partial_total_label": "Totaal",
+        "free_total_label": "Vrij",
+        "paid_label": "Betaald",
+        "payment_due_label": "Betaling verschuldigd",
+        "vat_label_html": "Inclusief %{amount} aan belastingen",
+        "discount_and_gift_card_savings_notice": "Na %{discount_amount} aan kortingen en %{gift_card_amount} aan cadeaubonnen",
+        "discount_savings_notice": "Na %{discount_amount} aan kortingen",
+        "gift_card_savings_notice": "Na %{gift_card_amount} in cadeaubonnen",
+        "cost_table_title": "Kosten overzicht",
+        "description_label": "Beschrijving",
+        "price_label": "Prijs",
+        "quantity_label": "Hoeveelheid",
+        "product_change_label": "Verandering",
+        "product_image_label": "Product afbeelding",
+        "scroll_order_summary": "Scroll voor meer artikelen",
+        "expand_order_summary": "Besteloverzicht tonen",
+        "collapse_order_summary": "Bestellingsoverzicht verbergen",
+        "original_price": "Originele prijs",
+        "sale_price": "Verkoopprijs",
+        "total_updated_label": "Bijgewerkte totaalprijs:",
+        "order_total_updated_label": "Bijgewerkt totaal",
+        "total_already_paid_label": "Al betaald",
+        "unit_price": {
+          "accessible_separator": "per",
+          "content_html": "%{price}%{accessible_separator}%{per_unit}"
+        },
+        "gift_card_ending": "Cadeaubon eindigend op %{last_characters}",
+        "estimated_tax_label": "Geschatte belasting",
+        "multiple_shipping_lines_label": "Verzending totaal",
+        "recurring_total_label": "Terugkerend totaal",
+        "recurring_total_tooltip": "Exclusief verzendkosten, belastingen, heffingen of eventuele kortingen.",
+        "confirmation_number_label": "Bevestiging #%{confirmation_number}",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> kan niet worden gebruikt met uw bestaande kortingen. Je hebt al een betere combinatie.",
+        "percent_off_shipping": "%{percent}% korting op verzending",
+        "amount_off_shipping": "%{amount} korting op verzending",
+        "deferred_payment_info": {
+          "title": "Betaling van %{amount_due} is verschuldigd op %{due_at}",
+          "description_html": "Voor vragen over uw bestelling, %{contact_us}.",
+          "paid_today": "Totaal betaald vandaag",
+          "due_on_fulfillment_title": "Betaling van %{amount_due} is verschuldigd bij uitvoering"
+        },
+        "payment_terms_totals": {
+          "due_today": "Totaal verschuldigd vandaag",
+          "due_later": "Totaal verschuldigd %{due_at}",
+          "due_later_checkout_to_draft": "Totaal later verschuldigd",
+          "due_on_fulfillment": "Totaal verschuldigd bij uitvoering"
+        },
+        "maximum_discount_code_limit_reached": "Je hebt het maximale aantal kortingscodes bereikt. Verwijder een bestaande code om <strong style=\"text-transform:uppercase\">%{code}<\/strong> te gebruiken.",
+        "recurring_subtotal_label": "Terugkerend subtotaal",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> werkt momenteel niet. Neem contact met ons op voor hulp."
+      },
+      "shipping": {
+        "title": "Verzenden",
+        "shipping_method_title": "Verzendmethode",
+        "shipping_method_one_time_purchase_group_title": "Eenmalige aankoop",
+        "shipping_method_subscription_group_title": "Abonnement",
+        "subscription_shipping": "Abonnement verzending",
+        "subscription_local_delivery": "Abonnement lokale levering",
+        "subscription_pickup": "Abonnement ophalen",
+        "waiting_on_rate_notice": "Beschikbare verzendkosten ophalen…",
+        "waiting_on_pickup_location_notice": "Beschikbare ophaallocaties krijgen…",
+        "no_rates_for_cart_or_destination_notice": "Er zijn geen verzendmethoden beschikbaar voor uw winkelwagen of adres",
+        "no_pickup_location_notice": "Ten minste één van uw producten kan niet worden opgehaald",
+        "no_rates_for_country_notice": "Geen verzendkosten gevonden voor dit adres.",
+        "no_rates_contact_notice": "Neem contact met ons op voor meer informatie",
+        "free_rate_label": "Vrij",
+        "cheapest_rate_label": "Goedkoopste",
+        "please_enter_your_shipping_information_notice": "Voer uw verzendgegevens in.",
+        "estimated_delivery_date": {
+          "one": "%{count} werkdag",
+          "other": "%{count} werkdagen"
+        },
+        "estimated_delivery_date_range": "%{minimum} tot %{maximum} werkdagen",
+        "delivery_date_range": "%{min_time}–%{max_time}",
+        "estimated_delivery_time": "Geschatte Leveringstijd}",
+        "estimated_delivery_time_range": "Geschatte levering %{min_time}–%{max_time}",
+        "arrives_time": "Komt %{time} aan",
+        "arrives_time_range": "Komt %{min_time}–%{max_time} aan",
+        "estimated_time": "Geschatte tijd}",
+        "estimated_time_range": "Geschatte %{min_time}–%{max_time}",
+        "shipping_line_phone_label": "Mobiel telefoonnummer (verplicht)",
+        "shipping_line_phone": "Uw koerier kan dit nummer gebruiken om contact met u op te nemen.",
+        "shipping_line_delivery_phone_label": "Mobiele telefoonnummer",
+        "shipping_line_delivery_phone": "Er kan contact met u worden opgenomen met updates over uw levering.",
+        "optional_shipping_line_delivery_instructions_label": "Leveringsinstructies (optioneel)",
+        "shipping_line_delivery_instructions": "Voer de nodige informatie in, zoals deurcodes of instructies voor het afleveren.",
+        "other_method": {
+          "zero": "Geen andere methoden beschikbaar",
+          "one": "%{count} andere methode beschikbaar op",
+          "other": "%{count} andere methoden beschikbaar vanaf"
+        },
+        "shipping_rate_discounted_amount": "Was: %{oorspronkelijk_bedrag}. Nu: %{bedrag}",
+        "local_delivery": "Lokale bezorging",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "voor %{count} levering",
+            "other": "voor %{count} leveringen"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "elke dag",
+              "other": "elke %{count} dagen"
+            },
+            "week": {
+              "one": "elke week",
+              "other": "elke %{count} weken"
+            },
+            "month": {
+              "one": "elke maand",
+              "other": "elke %{count} maanden"
+            },
+            "year": {
+              "one": "elk jaar",
+              "other": "elke %{count} jaar"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} per levering",
+          "prepaid_shipping_price_label": "%{shipping_price} per levering x %{delivery_interval_count}",
+          "initial_order_discounted": "Eerst verzendkosten %{discounted_shipping_cost}, dan %{frequency_description}",
+          "prepaid_initial_order_discounted": "Eerste verzendkosten %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Eerste verzendkosten %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Eerste verzendkosten %{discounted_shipping_price} %{prepaid_delivery_frequency}, daarna %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Eerste verzendkosten %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), daarna %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Inbegrepen",
+          "recurring_order_shipping_price": "gevolgd door %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Eerste bestelling inbegrepen, gevolgd door %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} per levering), gevolgd door %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Eerste bestelling gratis",
+            "other": "Eerste %{count} bestellingen gratis"
+          },
+          "free_for_first_n_order": {
+            "one": "Voor eerste bestelling",
+            "other": "Voor eerste %{count} bestellingen"
+          }
+        },
+        "one_time_purchase_shipping": "Eenmalige verzending"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Extra informatie"
+        }
+      },
+      "payment": {
+        "amazon_payments_label": "Amazon betalen",
+        "amazon_payments_login_hint": "U wordt gevraagd om in te loggen bij Amazon.",
+        "amazon_payments_logout": "Meld u af bij Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "De geselecteerde betaalmethode kon niet worden gebruikt. Selecteer een andere methode of neem contact op met uw bank of kaartuitgever.",
+        "amazon_payments_abandoned_mfa_challenge": "Uw betaling kon niet worden voltooid. Probeer een andere betaalmethode of neem contact op met uw bank of kaartuitgever.",
+        "amazon_payments_could_not_enqueue_authorize": "Er is een probleem opgetreden bij het verwerken van uw betaling. Probeer het opnieuw of gebruik een andere betaalmethode.",
+        "title": "Betaling",
+        "amount_left_to_pay_label": "Verschuldigde betaling:",
+        "discount_button_action_label": "Kortingscode toepassen",
+        "gift_card_code_label": "Cadeauboncode",
+        "apply_gift_card_button_label": "Van toepassing zijn",
+        "supported_card_brands_more_label": "en meer…",
+        "detected_card_brand": "Gedetecteerd kaartmerk: {brand}",
+        "credit_card_vaulting_sign_in_banner_title": "Bewaar uw creditcard",
+        "credit_card_vaulting_sign_in_banner_info": "Log in of maak een account aan om je creditcard te bewaren voor toekomstige aankopen.",
+        "credit_card_vaulting_sign_in_banner_button_label": "Log in",
+        "ftd_vault_credit_card_label": "Sla deze creditcard op in mijn account om sneller af te rekenen",
+        "card_number_label": "Kaartnummer",
+        "gift_card_balance_label": "Balans:",
+        "card_number_placeholder": "Kaartnummer",
+        "card_pay_with": "Betaal met:",
+        "card_security_notice": "Alle transacties zijn veilig en versleuteld.",
+        "card_security_vault_notice": "Voor toekomstige betalingen hebben wij uw gegevens nodig. Alle transacties zijn veilig en versleuteld.",
+        "card_information_notice": "Alle transacties zijn veilig en versleuteld. Creditcardgegevens worden nooit opgeslagen.",
+        "name_on_card_label": "naam op kaart",
+        "name_on_card_placeholder": "naam op kaart",
+        "card_expired": "Niet meer geldig",
+        "card_expiry_label": "Vervaldatum (MM \/ JJ)",
+        "card_expiry_placeholder": "Vervaldatum (MM \/ JJ)",
+        "credit_card_start_month": "Begin maand",
+        "credit_card_start_year": "Start jaar",
+        "delete_customer_mandate_modal_title": "Deze betaalkaart verwijderen?",
+        "delete_customer_mandate_modal_body": "Als u deze kaart verwijdert, moet u deze opnieuw toevoegen voordat u deze voor betalingen kunt gebruiken.",
+        "delete_customer_mandate_modal_confirm": "Kaart verwijderen",
+        "delete_customer_mandate_modal_cancel": "Annuleren",
+        "card_verification_value_label": "Beveiligingscode",
+        "card_verification_value_placeholder": "Beveiligingscode",
+        "card_verification_confirm": "Voer ter verificatie de beveiligingscode van uw kaart in.",
+        "card_expiry_date_explanation": "Vervaldatum van de kaart in formaat: maand, maand, jaar, jaar",
+        "card_expiration_month_label": "Vervalmaand"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Huidig saldo %{bedrag}",
+        "credit_card_expires_on_notice": "Verloopt op %{maand}\/%{jaar}",
+        "express_payment_gateway_label": "Nadrukkelijk",
+        "manual_payment_gateway_label": "Handleiding",
+        "billing_address_title": "Facturatie adres",
+        "free_label": "Vrij"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Voer een geldig telefoonnummer in",
+        "handle_email_invalid": "Vul een geldig e-mailadres in",
+        "email_invalid": "Vul een geldig e-mailadres in",
+        "email_or_phone_blank": "Voer een e-mailadres of mobiel telefoonnummer in",
+        "email_or_phone_invalid": "Voer een geldig e-mailadres of een mobiel telefoonnummer in",
+        "address_first_name_blank": "Voer een voornaam in",
+        "address_first_name_too_long": "Voornaam is te lang (maximaal 255 tekens)",
+        "address_first_name_contains_emojis": "Voornaam mag geen emoji's bevatten",
+        "address_first_name_contains_html_tags": "Voornaam mag geen HTML-tags bevatten.",
+        "address_first_name_contains_url": "Voornaam mag geen URL bevatten",
+        "address_last_name_blank": "Voer een achternaam in",
+        "address_last_name_too_long": "Achternaam is te lang (maximaal 255 tekens)",
+        "address_last_name_contains_emojis": "Achternaam mag geen emoji's bevatten",
+        "address_last_name_contains_html_tags": "Achternaam mag geen HTML-tags bevatten.",
+        "address_last_name_contains_url": "Achternaam mag geen URL bevatten",
+        "address_address1_blank": "Geef een adres in",
+        "address_address1_too_long": "De eerste adresregel is te lang (maximaal 255 tekens)",
+        "address_address1_contains_emojis": "Adres1 mag geen emoji's bevatten",
+        "address_address1_contains_html_tags": "Adres1 mag geen HTML-tags bevatten.",
+        "address_address2_blank": "Betreed een appartement, suite, enz.",
+        "address_address2_too_long": "De tweede adresregel is te lang (maximaal 255 tekens)",
+        "address_address2_contains_emojis": "Adres2 kan geen emoji's bevatten",
+        "address_address2_contains_html_tags": "Adres2 kan geen HTML-tags bevatten.",
+        "address_city_blank": "Voer een stad in",
+        "address_city_too_long": "Plaats is te lang (maximaal 255 tekens)",
+        "address_city_contains_emojis": "Stad kan geen emoji's bevatten",
+        "address_city_contains_html_tags": "Stad mag geen HTML-tags bevatten.",
+        "address_country_blank": "Selecteer een land\/regio",
+        "address_country_not_supported": "We verzenden niet naar dit land of deze regio. Voer een nieuw verzendadres in en probeer het opnieuw.",
+        "address_province_blank": "Selecteer een staat\/provincie",
+        "address_company_blank": "Voer een bedrijfsnaam in",
+        "address_company_too_long": "Bedrijfsnaam is te lang (maximaal 255 tekens)",
+        "address_company_contains_emojis": "Bedrijf mag geen emoji's bevatten",
+        "address_company_contains_html_tags": "Bedrijf mag geen HTML-tags bevatten.",
+        "address_phone_blank": "Voer een geldig telefoonnummer in",
+        "address_phone_contains_emojis": "Telefoonnummer mag geen emoji's bevatten",
+        "address_zip_blank": "Vul een postcode in",
+        "address_zip_not_supported": "Deze locatie wordt niet ondersteund.",
+        "address_zip_invalid_for_country": "Voer een geldige postcode in voor %{country}",
+        "address_zip_invalid_for_country_and_province": "Voer een geldige postcode in voor %{province}, %{country}",
+        "address_zip_contains_emojis": "Postcode \/ postcode mag geen emoji's bevatten",
+        "credit_card_name_blank": "Voer uw naam precies in zoals deze op uw kaart staat",
+        "credit_card_name_invalid": "Voer uw naam precies in zoals deze op uw kaart staat",
+        "credit_card_number_invalid": "Voer een geldig kaartnummer in",
+        "credit_card_expiry_invalid": "Voer een geldige vervaldatum van de kaart in",
+        "credit_card_month_invalid": "Voer een geldige vervalmaand van de kaart in",
+        "credit_card_year_invalid": "Voer een geldig kaartvervaljaar in",
+        "credit_card_start_invalid": "Voer een geldige startdatum van de kaart in",
+        "credit_card_start_month_invalid": "Voer een geldige startmaand van de kaart in",
+        "credit_card_start_year_invalid": "Voer een geldig startjaar van de kaart in",
+        "credit_card_verification_value_blank": "Vul de CVV of beveiligingscode op uw kaart in",
+        "reduction_code_code_not_found": "Voer een geldige kortingscode of cadeaubon in",
+        "reduction_code_discount_not_found": "Vul een geldige kortingscode in",
+        "reduction_code_gift_card_code_invalid": "Voer een geldige cadeaukaart in",
+        "reduction_code_gift_card_unusable": "Je kunt een cadeaubon niet gebruiken om nog een cadeaubon te kopen",
+        "shipping_line_phone_blank": "Voer een telefoonnummer in om deze bezorgmethode te gebruiken",
+        "shipping_line_phone_invalid": "Voer een geldig telefoonnummer in om deze bezorgmethode te gebruiken",
+        "tips_invalid_tip_amount": "Voer een fooi in van maximaal %{amount}",
+        "gift_card_already_applied": "Deze cadeaubon is al toegepast op je bestelling",
+        "gift_card_disabled": "Deze cadeaubon is niet meer beschikbaar",
+        "gift_card_expired": "Deze cadeaubon is verlopen",
+        "gift_card_depleted": "Deze cadeaubon heeft geen saldo meer",
+        "gift_card_currency_mismatch": "Alleen cadeaubonnen in %{checkout_currency} kunnen bij deze bestelling worden gebruikt",
+        "gift_cards_not_supported_with_deferred_purchase_options": "Cadeaubonnen worden niet ondersteund met opties voor uitgestelde aankopen.",
+        "gift_card_buying_gift_card": "Je kunt een cadeaubon niet gebruiken om een andere cadeaubon te kopen",
+        "payment_gateway_needs_paid_plan_error": "Deze betaalmethode is momenteel niet beschikbaar in de winkel",
+        "payment_gateway_not_in_test_mode": "is niet ingesteld om bestellingen te testen. Deze winkel kan geen echte bestellingen of echte betalingen accepteren.",
+        "payment_gateway_incompatible_with_multi_currency": "Om deze checkout in uw lokale valuta te voltooien, moet u met een creditcard betalen.",
+        "payment_gateway_unsupported_for_subscriptions": "Deze betaalmethode is niet beschikbaar voor abonnementsbestellingen.",
+        "payment_gateway_unsupported_for_country": "Deze betaalmethode is niet beschikbaar voor uw land van verzending.",
+        "subscription_agreement_blank": "Ga akkoord met de abonnementsvoorwaarden om door te gaan met uw aankoop",
+        "physical_gift_card_invalid_quantity": "Fysieke regelitems voor cadeaubonnen moeten een hoeveelheid hebben die overeenkomt met het aantal cadeaukaartcodes.",
+        "physical_gift_card_duplicate_code": "Fysiek cadeaubonregelitem bevat dubbele code.",
+        "physical_gift_card_invalid_code": "Fysieke cadeaukaartcode is ongeldig.",
+        "delivery_line_detail_changed": "Sommige bezorggegevens zijn mogelijk gewijzigd. Controleer uw verzendmethode en probeer het opnieuw."
+      },
+      "payment_errors": {
+        "generic_error": "Er is een probleem opgetreden bij het verwerken van uw betaling. Probeer het opnieuw of gebruik een andere betaalmethode.",
+        "rejected_transaction": "Uw betaling is afgewezen. Probeer het opnieuw of gebruik een andere betaalmethode.",
+        "credit_card_processing": "Uw betaling kan om technische redenen niet worden verwerkt. Probeer het over een paar minuten opnieuw of gebruik een andere betaalmethode.",
+        "checkout_amount_changed": "Uw betaling kon niet worden verwerkt omdat het verschuldigde bedrag bij het afrekenen is gewijzigd. Controleer uw bestelling en probeer het opnieuw.",
+        "deferred_payment_not_allowed": "Uitgestelde betalingen zijn niet toegestaan. Controleer uw bestelling en probeer het opnieuw.",
+        "deferred_payment_required": "Voor deze bestelling is een uitgestelde betaling vereist. Controleer uw bestelling en probeer het opnieuw.",
+        "deferred_amount_changed": "Uw betaling kon niet worden verwerkt omdat het uitgestelde betalingsbedrag is gewijzigd. Controleer uw bestelling en probeer het opnieuw.",
+        "deferred_date_changed": "Uw betaling kon niet worden verwerkt omdat de uitgestelde betalingsdatum is gewijzigd. Controleer uw bestelling en probeer het opnieuw.",
+        "order_total_changed": "Uw betaling kon niet worden verwerkt omdat het totaal van uw bestelling is gewijzigd. Controleer uw bestellingstotaal en probeer het opnieuw.",
+        "payment_processing": "Uw betaling kan om technische redenen niet worden verwerkt. Probeer het opnieuw of gebruik een andere betaalmethode.",
+        "payment_processing_no_retry": "Uw betaling kan om technische redenen niet worden verwerkt. Probeer een andere betaalmethode.",
+        "paypal_zero_amount": "U kunt PayPal niet gebruiken voor %{amount} bestellingen. Bevestig dat uw bestelling correct is en reken af zonder PayPal.",
+        "paypal_invalid_token": "PayPal was niet beschikbaar. Probeer het opnieuw of gebruik een andere afrekenoptie.",
+        "pay_later_failed": "Er is een fout opgetreden bij het verwerken van uw betaling met Later betalen. Kies een andere betaalmethode en probeer het opnieuw.",
+        "three_d_secure_failed": "Uw betaling kan niet worden geverifieerd. Probeer het opnieuw of gebruik een andere betaalmethode.",
+        "three_d_secure_failed_duplicate": "De 3D Secure-verificatie van de creditcard is mislukt omdat er al een andere bezig is.",
+        "three_d_secure_throttled": "Te veel pogingen; wacht alstublieft voordat u het opnieuw probeert",
+        "subscription_agreement_blank": "Om een abonnement te kopen, moeten uw betalingsgegevens zijn opgeslagen. Om door te gaan, bevestigt u dat u akkoord gaat of verwijdert u abonnementsitems uit uw bestelling.",
+        "insufficient_funds": "Uw betaling is geweigerd vanwege onvoldoende saldo. Probeer het opnieuw of gebruik een andere betaalmethode.",
+        "fraud_payment_errors": {
+          "transaction_declined": "Deze transactie is geweigerd",
+          "address_mismatch": "Straatadres en postcode komen niet overeen.",
+          "cannot_process": "Deze transactie kan niet worden verwerkt.",
+          "no_match": "Geen match",
+          "card_declined": "Uw kaart is geweigerd"
+        }
+      },
+      "shipping_errors": {
+        "shipping_method": "Uw winkelwagen is bijgewerkt en het vorige verzendtarief is niet geldig. Selecteer een nieuw tarief.",
+        "shipping_method_not_available": "Uw winkelwagen is bijgewerkt en de artikelen die u heeft toegevoegd, kunnen niet naar uw adres worden verzonden. Verwijder de artikelen om uw bestelling af te ronden.",
+        "shipping_method_not_available_generic": {
+          "one": "Deze bestelling kan niet worden verzonden naar het adres dat u heeft opgegeven. Controleer uw adres om er zeker van te zijn dat alle velden correct zijn ingevoerd en probeer het opnieuw.",
+          "other": "Sommige artikelen in uw winkelwagen kunnen niet worden verzonden naar het adres dat u heeft ingevoerd. Controleer uw adres om er zeker van te zijn dat alle velden correct zijn ingevoerd en probeer het opnieuw."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "Het item dat u heeft toegevoegd, wordt niet naar uw locatie verzonden. Verwijder het om af te rekenen of neem contact op met de winkel.",
+          "other": "Een of meer items die je hebt toegevoegd, worden niet naar je locatie verzonden. Verwijder ze om af te rekenen of neem contact op met de winkel."
+        }
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Snel afrekenen",
+        "or": "OF"
+      },
+      "alternative_payment_method": {
+        "button_html": "Afrekenen met: %{methode}",
+        "button_label": "Afrekenen met: %{methode}"
+      },
+      "paypal": {
+        "button_html": "Afrekenen met %{logo}"
+      },
+      "apple_pay": {
+        "button_html": "Koop met %{logo}"
+      },
+      "post_purchase": {
+        "page_title": "Na aankoop",
+        "title": "Na aankoop",
+        "escape_confirmation": "Je hebt betaald voor je bestelling.",
+        "escape_action": "Bekijk orderbevestiging ›",
+        "components": {
+          "close": "Dichtbij",
+          "expand": "Bekijk meer",
+          "processing": "Verwerken…",
+          "submit": "Indienen"
+        }
+      },
+      "processing": {
+        "redirecting_page_title": "Omleiden...",
+        "redirecting_title": "Omleiden...",
+        "redirecting_notice": "Wacht terwijl we u doorverwijzen.",
+        "complete_your_purchase_title": "Voltooi uw aankoop",
+        "continue_to_payment_gateway_notice": "Ga door naar betaling om uw betalingsgegevens toe te voegen.",
+        "continue_to_payment_gateway_button_label": "Doorgaan naar betaling",
+        "complete_your_purchase_title_error": "Corrigeer uw betalingsgegevens",
+        "continue_to_payment_gateway_notice_error": "Uw betalingsgegevens kunnen niet worden geverifieerd.",
+        "continue_to_payment_gateway_button_label_error": "Betalingsgegevens bijwerken",
+        "page_title": "Bestelling verwerken",
+        "title": "Bestelling verwerken",
+        "your_order_has_been_received_title": "bedankt voor je bestelling",
+        "you_will_receive_confirmation": "We krijgen momenteel veel bestellingen binnen. U ontvangt binnenkort een bevestiging per e-mail of sms. Laat het ons weten als je het niet binnen een uur ontvangt.",
+        "you_will_not_be_charged": "Er worden nog geen kosten in rekening gebracht",
+        "wait": {
+          "short": "Je bestelling wordt verwerkt.",
+          "medium": {
+            "one": "Je bestelling wordt verwerkt. De geschatte wachttijd is %{count} minuut.",
+            "other": "Je bestelling wordt verwerkt. De geschatte wachttijd is %{count} minuten."
+          },
+          "long": "Je ontvangt een e-mail zodra je bestelling is verwerkt. Er is momenteel een groot aantal bestellingen.",
+          "no_auto_refresh_html": "Als u niet automatisch wordt omgeleid, %{link}.",
+          "refresh_this_page": "vernieuw deze pagina"
+        }
+      },
+      "failed_payment": {
+        "page_title": "De betaling kon niet worden verwerkt",
+        "title": "De betaling kon niet worden verwerkt",
+        "payment_not_processed_title": "Uw betaling kon niet worden verwerkt",
+        "payment_not_processed_text": "Er zijn geen kosten in rekening gebracht. Keer terug naar uw winkelwagen om uw aankoop te voltooien.",
+        "return_to_cart_button_label": "Keer terug naar winkelwagen"
+      },
+      "payment_gateway": {
+        "credit_card_label": "Kredietkaart",
+        "bank_deposit_label": "Bankstorting",
+        "cash_on_delivery_label": "Rembours (onder rembours)",
+        "money_order_label": "Postwissel"
+      },
+      "thank_you": {
+        "title": "dank voor uw aankoop!",
+        "confirmation_email_sent_text": "Er is een bevestigingsmail verzonden naar %{email}",
+        "return_to_store_link_label": "Doorgaan met winkelen",
+        "print_link_label": "Printbon",
+        "payment_information_title": "Betalingsinformatie",
+        "shipping_information_title": "Verzend informatie",
+        "page_title": "Bedankt %{display_name}!",
+        "page_title_no_name": "Dank je!",
+        "cancelled_page_title": "Bestelling geannuleerd",
+        "customer_information_title": "Klant informatie",
+        "contact_information_title": "Contactgegevens",
+        "billing_address_title": "Factuur adres",
+        "company_location_title": "Plaats",
+        "shipping_address_title": "Verzendingsadres",
+        "shipping_address_map_title": "Google-kaart met het exacte verzendadres: %{address}",
+        "payment_method_title": "Betalingsmiddel",
+        "shipping_method_title": "Verzendmethode",
+        "tracking_number": "Volg nummer:",
+        "company_tracking_number": "%{company} trackingnummer:",
+        "estimated_arrival": "Verwachte leveringsdatum:",
+        "estimated_delivery": "Geschatte levering",
+        "re-order": "Bestel dezelfde artikelen opnieuw",
+        "confirmed": "Bevestigd",
+        "gift_card_confirmation_by_text": "Cadeaubonnen worden per sms verzonden. Als je de jouwe niet hebt ontvangen, probeer ze dan opnieuw te verzenden of neem contact met ons op.",
+        "gift_card_confirmation_by_email": "Cadeaubonnen worden per e-mail verzonden. Als je de jouwe niet hebt ontvangen, probeer ze dan opnieuw te verzenden of neem contact met ons op.",
+        "gift_card_title": "Cadeaubonnen",
+        "resend_gift_cards": "Stuur cadeaubonnen opnieuw",
+        "thank_you_title": "Uw bestelling is bevestigd",
+        "thank_you_title_payment": "Uw betaling is bevestigd",
+        "thank_you_title_review": "Uw bestelling is ingediend ter beoordeling",
+        "thank_you_confirmed_order_with_email": "Je ontvangt binnenkort een bevestigingsmail met je bestelnummer.",
+        "thank_you_confirmed_order_with_phone": "Je ontvangt binnenkort een bevestigings-sms met je bestelnummer.",
+        "thank_you_confirmed_order_with_email_and_phone": "Je ontvangt binnenkort een bevestigingsmail en sms met je bestelnummer.",
+        "thank_you_confirmed_order_with_email_payment": "U heeft een betaling gedaan voor uw bestelling %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "U heeft een betaling gedaan voor uw bestelling %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "U heeft een betaling gedaan voor uw bestelling %{date}.",
+        "thank_you_confirmed_order_with_email_pick_up": "Je ontvangt een e-mail wanneer je bestelling klaar ligt om af te halen.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Je ontvangt een sms wanneer je bestelling klaar ligt om opgehaald te worden.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Je ontvangt een e-mail wanneer je bestelling klaar ligt om af te halen.",
+        "thank_you_confirmed_order_with_missing": "Neem contact met ons op via e-mail of telefoon om een ​​orderbevestiging te ontvangen.",
+        "thank_you_confirmed_order_with_draft": "We laten het je weten als we meer informatie nodig hebben of als je bestelling is bevestigd.",
+        "order_status_confirmed_order_with_email": "Je ontvangt een e-mail wanneer je bestelling klaarligt.",
+        "order_status_confirmed_order_with_phone": "Je ontvangt een sms als je bestelling klaarligt.",
+        "order_status_confirmed_order_with_email_and_phone": "Je ontvangt een e-mail en sms wanneer je bestelling klaarligt.",
+        "order_status_confirmed_order_with_email_payment": "U heeft een betaling gedaan voor uw bestelling %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "U heeft een betaling gedaan voor uw bestelling %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "U heeft een betaling gedaan voor uw bestelling %{date}.",
+        "breadcrumbs_submitted": "Ingediend",
+        "breadcrumbs_in_review": "In beoordeling",
+        "breadcrumbs_confirmed": "Bevestigd",
+        "missing_shipping_address_banner": {
+          "title": "Verzendadres ontbreekt",
+          "text_html": "%{contact_us} met uw verzendadres om deze bestelling te voltooien."
+        },
+        "first_payment_complete": "Eerste betaling voltooid",
+        "in_store_purchase": "Aankoop in de winkel",
+        "order_status_confirmed_order_with_email_pick_up": "Je ontvangt een e-mail wanneer je bestelling klaar ligt om af te halen.",
+        "order_status_confirmed_order_with_phone_pick_up": "Je ontvangt een sms wanneer je bestelling klaar ligt om opgehaald te worden.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Je ontvangt een e-mail en sms wanneer je bestelling klaar ligt om te worden opgehaald.",
+        "order_status_confirmed_order_local": "We maken je bestelling klaar voor bezorging.",
+        "order_status_updates_with_email": "Je ontvangt verzend- en bezorgupdates per e-mail.",
+        "order_status_updates_with_phone": "Je ontvangt verzend- en bezorgupdates per sms.",
+        "order_status_updates_with_email_and_phone": "Je ontvangt verzend- en bezorgupdates per e-mail en sms.",
+        "order_status_updates_with_missing": "Kies hoe je verzendupdates wilt ontvangen.",
+        "order_status_confirmed_with_installments_payment_return": "Richt uw aandacht alstublieft weer op de verkoopmedewerker.",
+        "order_status_confirmed_with_installments_payment_confirm": "Je ontvangt binnenkort een bevestigingsmail met je bestelnummer en de details van je afbetalingsschema.",
+        "confirmed_title": "Uw bestelling is bevestigd",
+        "confirmed_description": "We hebben je bestelling geaccepteerd en we maken het klaar. Kom terug naar deze pagina voor updates over de status van uw zending.",
+        "ready_for_pickup_title": "Je bestelling staat klaar om opgehaald te worden",
+        "ready_for_pickup_description": "Je bestelling staat klaar om opgehaald te worden. Neem bij het afhalen van uw bestelling uw orderbevestiging mee.",
+        "ready_for_delivery_title": "Uw bestelling is klaar voor levering.",
+        "cancelled_description": "Uw bestelling is geannuleerd op %{date}. Neem contact met ons op als u vragen heeft.",
+        "order_number_label": "Bestellingsnummer",
+        "customer_validation_error": "Voer een geldig e-mailadres of bestelnummer in.",
+        "customer_validation_error_phone": "Voer een geldig telefoonnummer of bestelnummer in.",
+        "login": "Log in",
+        "unfulfilled_items_title": "Klaarmaken voor verzending",
+        "unfulfilled_items_description": "We zijn deze artikelen momenteel aan het klaarmaken voor verzending.",
+        "marker": {
+          "current": "Huidige verzendlocatie",
+          "shipping": "Verzendingsadres"
+        },
+        "pick_up_in_store_marker": {
+          "current": "Huidige verzendlocatie",
+          "shipping": "Ophaalplaats"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Artikelen in deze zending",
+          "unfulfilled_table_title": "Items die worden voorbereid voor verzending",
+          "product_image_label": "Product afbeelding",
+          "description_label": "Beschrijving",
+          "quantity_label": "Hoeveelheid"
+        },
+        "opt_in_message_html": "Uw informatie is succesvol opgeslagen met %{shopify_pay}",
+        "order_updates_description_missing": "Je ontvangt geen verzendupdates.",
+        "order_updates_subscribe_to_email_notifications": "Ontvang verzendupdates per e-mail",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Ontvang verzendupdates per e-mail of sms",
+        "order_updates_subscribe_to_phone_notifications": "Ontvang verzendupdates per sms",
+        "order_updates_submit_subscription": "Indienen",
+        "optimus_button_label": "Koop met Optimus: Pakket volgen",
+        "track_shipment": "Zending volgen",
+        "shopify_pay": {
+          "order_completed_html": "Bestelling voltooid met %{shopify_pay}",
+          "learn_more_label": "Meer informatie over Shop Pay"
+        },
+        "other_options": "Andere opties",
+        "delivery_information_label": "Leveringsinformatie:",
+        "gift_card_sent_confirmation": "Cadeaubonnen verstuurd",
+        "qr_code": {
+          "send_link_to_phone": "Of stuur een link naar je telefoon",
+          "title": "Volg op je telefoon",
+          "subtitle": "Scan de code met de camera van je telefoon om te volgen met Shop."
+        },
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Scannen met je telefoon",
+            "description": "Shop stuurt u real-time leveringsupdates zodra uw bestelling is verzonden."
+          },
+          "sms": {
+            "title": "Of stuur een link naar je telefoon"
+          }
+        },
+        "view_business_customer_account": "Bekijk account"
+      },
+      "review": {
+        "title": "Recensie",
+        "review_title": "Bestelling bekijken",
+        "checkout_as_guest": "Check uit als gast",
+        "blocks": {
+          "contact_method_title": "Contact",
+          "billing_address_title": "Facturering",
+          "shipping_address_title": "Verzend naar",
+          "shipping_method_title": "Methode",
+          "payment_method_title": "Betaling",
+          "change_link_label": "Verandering",
+          "change_contact_method_link_label": "Contactgegevens wijzigen",
+          "change_billing_address_link_label": "Factuuradres wijzigen",
+          "change_shipping_address_link_label": "Verzendadres wijzigen",
+          "change_shipping_method_link_label": "Verzendmethode wijzigen",
+          "change_payment_method_link_label": "Verander betaalmethode",
+          "pick_up_in_store_shipping_method_html": "Ophalen in de winkel · %{location_name}"
+        }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "E-mail mij met nieuws en aanbiedingen",
+        "post_accept_marketing_checkbox_label": "U bent aangemeld om nieuws en aanbiedingen per e-mail te ontvangen",
+        "pending_accept_marketing_checkbox_label": "Controleer uw e-mail om uw abonnement op nieuws en aanbiedingen te bevestigen",
+        "accept_sms_checkbox_label": "Sms me met nieuws en aanbiedingen",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Privacybeleid",
+            "terms_of_service": "Servicevoorwaarden",
+            "description_html": "Door u aan te melden via sms, gaat u ermee akkoord om terugkerende geautomatiseerde marketingberichten, inclusief winkelwagenherinneringen, te ontvangen op het opgegeven telefoonnummer. Toestemming is geen aankoopvoorwaarde. Antwoord STOP om je af te melden. Antwoord HELP voor hulp. De frequentie van berichten varieert. Er kunnen sms- en datatarieven van toepassing zijn. Bekijk onze %{privacy_policy_link} en %{terms_of_service_link}.",
+            "description_transactional_html": "U kunt sms-berichten ontvangen met betrekking tot orderbevestiging en verzendupdates. Antwoord STOP om je af te melden. Antwoord HELP voor hulp. De frequentie van berichten varieert. Er kunnen sms- en datatarieven van toepassing zijn. Bekijk onze %{privacy_policy_modal_link} en %{terms_of_service_modal_link}."
+          }
+        },
+        "unsubscribe": {
+          "title": "Je hebt je afgemeld",
+          "description": "U ontvangt geen winkelwagenherinneringen meer van ons."
+        }
+      },
+      "shop_policies": {
+        "refund_policy": "Restitutiebeleid",
+        "privacy_policy": "Privacybeleid",
+        "terms_of_service": "Servicevoorwaarden",
+        "legal_notice": "Juridische kennisgeving",
+        "shipping_policy": "Verzendbeleid",
+        "terms_of_sale": "Verkoopvoorwaarden",
+        "subscription_policy": "Annuleringsvoorwaarden voor aankoopopties",
+        "purchase_options_policy": "Koopoptiebeleid",
+        "contact_information": "Contactgegevens"
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Merchant of Record Algemene voorwaarden",
+        "privacy_policy": "Privacybeleid van Merchant of Record"
+      },
+      "remember_me": {
+        "shopify_pay_label": "Winkel betalen",
+        "save": "Sparen",
+        "title": "Onthoud mij",
+        "label": "Bewaar mijn gegevens om sneller af te rekenen",
+        "description_html": "De volgende keer dat u hier of in andere winkels, mogelijk gemaakt door Shopify, afrekent, ontvangt u een code per sms om veilig te kopen met Shop Pay.",
+        "mobile_phone_icon_alt": "Mobiele telefoon",
+        "mobile_phone_number": "Mobiele telefoonnummer",
+        "terms_and_privacy_html": "Door verder te gaan, gaat u akkoord met %{privacy_href} en %{terms_href} van Shop Pay.",
+        "external_acessibility_label": "(opent een nieuw venster)",
+        "privacy_policy": "Privacybeleid",
+        "terms_of_service": "Servicevoorwaarden",
+        "errors": {
+          "optin": "Shop Pay is niet beschikbaar"
+        },
+        "installments": {
+          "paid_in_installments": "Betaal in termijnen met Shop Pay.",
+          "view_schedule": "Bekijk schema"
+        },
+        "title_with_logo_html": "Onthoud mij met %{shopify_pay}",
+        "label_address_payment_and_faster_checkouts": "Laat Shop Pay mijn adres en betalingsgegevens invullen om sneller af te rekenen.",
+        "label_faster_checkouts_and_thousand_shops": "Bewaar mijn gegevens met Shop Pay voor sneller afrekenen bij meer dan een miljoen winkels."
+      },
+      "notifications": {
+        "title": "Meldingen"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Te betalen bedrag voor bestelling %{order_name}",
+        "changes_summary": {
+          "added": {
+            "one": "Toegevoegd",
+            "other": "%{count} toegevoegd"
+          },
+          "removed": "VERWIJDERD",
+          "subtracted": "%{count} verwijderd"
+        },
+        "additional_payment_requested": "Betaling van %{total_outstanding} is vereist",
+        "checkout_review_and_pay": "Uw bestelling %{order_name} is bijgewerkt. Bekijk deze wijzigingen en betaal vervolgens om uw bestelling te bevestigen.",
+        "order_updated_on": "Uw bestelling is bijgewerkt op %{last_edited_at}.",
+        "order_review_and_pay": "Uw bestelling is bijgewerkt. Bekijk en betaal om uw bestelling te bevestigen.",
+        "pay_now": "Nu betalen"
+      },
+      "change_currency": {
+        "currency_button_label": "%{currency} (%{currency_symbol})",
+        "credit_card_will_be_charged_html": "Er wordt %{amount} in rekening gebracht op uw creditcard",
+        "payment_total_label": "Betaling totaal",
+        "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}",
+        "change_currency_link": "Wijzig naar %{currency_name}",
+        "card_provider_fx_charges_warning": "Uw kaartaanbieder kan kosten in rekening brengen voor %{currency_code} transacties.",
+        "currency_not_supported_by_shop": "De valuta die je hebt geselecteerd is niet meer beschikbaar. Alle prijzen zijn nu in %{currency_code}."
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Uw winkelwagen is bijgewerkt op basis van uw land van verzending."
+      },
+      "tips": {
+        "title": "Fooi toevoegen",
+        "description": "Toon uw steun voor het team van %{shop_name}",
+        "presets_description": "Selecteer een fooipercentage",
+        "custom_label": "Aangepaste tip",
+        "add_tip": "Fooi toevoegen",
+        "update_tip": "Update-tip",
+        "message": "Bedankt, we waarderen het",
+        "preset_label": "%{tip_percent}%",
+        "no_tip_label": "Geen"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "Aankoop %{product_name}",
+          "one": "Koop %{product_name} en %{count} ander item",
+          "other": "Koop %{product_name} en %{count} andere items"
+        }
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "day": {
+            "one": "dag",
+            "other": "%{count} dagen"
+          },
+          "week": {
+            "one": "week",
+            "other": "%{count} weken"
+          },
+          "month": {
+            "one": "maand",
+            "other": "%{count} maanden"
+          },
+          "year": {
+            "one": "jaar",
+            "other": "%{count} jaar"
+          }
+        },
+        "recurring_totals": "%{total_price} elke %{interval}",
+        "recurring_totals_with_initial_order_shipping_discount": "Eerste betaling %{total_price_with_discount}, daarna %{recurring_total}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Eerste betaling %{total_price}",
+            "other": "Eerste %{count} betalingen %{total_price} elk"
+          },
+          "following_cycles": ", dan %{total_price} elke %{interval}"
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", dan %{count} betaling tegen %{total_price}",
+            "other": ", dan %{count} betalingen tegen %{total_price} elk"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "Betaalmethodes",
+        "title": "Betaalmethodes",
+        "update_card_button_label": "Kaart bijwerken",
+        "delete_customer_mandate": {
+          "generic_error": "Er is een probleem opgetreden bij het verwerken van uw verzoek.",
+          "success_message": "Uw betaalmethode is succesvol verwijderd"
+        }
+      }
+    },
+    "pagination": {
+      "previous": "Vorig",
+      "next": "Volgende"
+    },
+    "links": {
+      "powered_by_shopify": "Mogelijk gemaakt door Shopify",
+      "learn_more": "Leer meer"
+    },
+    "feed": {
+      "more": "Meer"
+    },
+    "attributes": {
+      "email": "e-mail",
+      "password": "wachtwoord",
+      "password_confirmation": "De wachtwoordbevestiging",
+      "first_name": "Voornaam",
+      "last_name": "achternaam",
+      "body": "lichaam",
+      "signature": "Adres"
+    },
+    "addresses": {
+      "zip_code": "postcode",
+      "postal_code": "Postcode",
+      "postcode": "postcode",
+      "pincode": "Pincode",
+      "region": "Regio",
+      "prefecture": "Prefectuur",
+      "province": "Provincie",
+      "state": "Staat",
+      "state_and_territory": "Staat\/territorium",
+      "county": "District",
+      "emirate": "emiraat",
+      "governorate": "gouvernement",
+      "confirm": "Weet u zeker dat u dit adres wilt verwijderen?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Aanbevolen",
+        "best_selling": "Best verkopende",
+        "az": "Alfabetisch, AZ",
+        "za": "Alfabetisch, ZA",
+        "price_ascending": "Prijs laag naar hoog",
+        "price_descending": "Prijs, hoog naar laag",
+        "date_ascending": "Datum, oud naar nieuw",
+        "date_descending": "Datum, nieuw naar oud"
+      }
+    },
+    "errors": {
+      "blank": "kan niet leeg zijn",
+      "blocked_address": "Deze locatie wordt niet ondersteund.",
+      "credit_card_session_expired": "Creditcardautorisatie is verlopen, voer uw betalingsgegevens opnieuw in. Uw kaart is niet belast.",
+      "empty": "kan niet leeg zijn",
+      "invalid_email": "Moet een geldig e-mail adres zijn",
+      "discount_disabled": "Deze korting is uitgeschakeld",
+      "discount_expired": "Deze korting is niet meer geldig",
+      "discount_limit_reached": "Deze korting heeft zijn gebruikslimiet bereikt",
+      "discount_not_found": "Kan geen geldige korting vinden die overeenkomt met de ingevoerde code",
+      "customer_already_used_once_per_customer_discount_notice": "Deze korting heeft zijn gebruikslimiet bereikt",
+      "gift_card_already_applied": "Code is al toegepast op je kassa",
+      "gift_card_code_invalid": "Code is ongeldig",
+      "gift_card_currency_mismatch": "%{gift_card_currency} cadeaubonnen kunnen niet worden toegepast op %{checkout_currency} bestellingen",
+      "gift_card_depleted": "Er staat geen tegoed meer op deze cadeaubon",
+      "gift_card_disabled": "Cadeaukaart is uitgeschakeld",
+      "gift_card_expired": "Cadeaukaart is verlopen",
+      "invalid": "is ongeldig",
+      "bad_domain": "bevat een ongeldige domeinnaam",
+      "taken": "is al bezet",
+      "contains_html_tags": "mag geen HTML-tags bevatten",
+      "too_short": "is te kort (minimum is %{count} karakters)",
+      "too_long": "is te lang (maximum is %{count} karakters)",
+      "password_mismatch": "moet overeenkomen met het opgegeven wachtwoord",
+      "contains_spaces": "begint of eindigt met spaties.",
+      "email_domain_invalid": "provider wordt niet ondersteund",
+      "invalid_for_country": "is niet geldig voor %{country}",
+      "invalid_for_country_and_province": "is niet geldig voor %{province} en %{country}",
+      "invalid_province_in_country": "is geen geldige provincie in %{country}",
+      "invalid_state_in_country": "is geen geldige status in %{country}",
+      "invalid_region_in_country": "is geen geldige regio in %{country}",
+      "less_than_or_equal_to": "moet kleiner zijn dan of gelijk zijn aan %{count}",
+      "not_supported": "wordt niet ondersteund",
+      "full_name_required": "Voer een voornaam en achternaam in",
+      "invalid_for_card_type": "is niet geldig",
+      "invalid_type": "sorry, we accepteren geen kaarten van dit type",
+      "invalid_format": "formaat is niet geldig",
+      "expired": "is verlopen",
+      "invalid_start_date_or_issue_number_for_debit": "een geldige startdatum of uitgiftenummer is vereist",
+      "invalid_expiry_year": "is geen geldig vervaljaar",
+      "reset_password_html": "Dit e-mailadres is al gekoppeld aan een account. Als dit account van jou is, kun je <a href=\"\/account\/login#recover\">je wachtwoord resetten<\/a>",
+      "verify_email": "We hebben een e-mail gestuurd naar %{customer_email}, klik op de meegeleverde link om uw e-mailadres te verifiëren.",
+      "product_not_available": "product is niet gepubliceerd voor deze klant."
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Wachtwoord opnieuw instellen fout",
+        "no_account_found": "Geen account gevonden met dat e-mailadres.",
+        "invalid_credentials": "Incorrecte email of wachtwoord.",
+        "denylisted_reset_password": "Er kan geen toegang tot uw account worden verkregen omdat het huidige wachtwoord niet veilig is. U ontvangt een e-mail om uw wachtwoord bij te werken."
+      },
+      "address": {
+        "updated": "Adres bijgewerkt.",
+        "error_updating": "Fout bij bijwerken van adres",
+        "created": "Adres aangemaakt",
+        "error_creating": "Fout bij aanmaken van adres.",
+        "deleted": "Adres verwijderd",
+        "error_deleting": "Fout bij verwijderen van adres."
+      },
+      "order": {
+        "not_available": "Deze bestelling is niet beschikbaar",
+        "financial_status": {
+          "authorized": "Geautoriseerd",
+          "pending": "In afwachting",
+          "paid": "Betaald",
+          "unpaid": "Onbetaald",
+          "voided": "ongeldig gemaakt",
+          "partially_paid": "Gedeeltelijk betaald",
+          "partially_refunded": "Gedeeltelijk terugbetaald",
+          "refunded": "Terugbetaald",
+          "expired": "Niet meer geldig"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Vervuld",
+          "complete": "Compleet"
+        }
+      },
+      "cart": {
+        "all_items_in_cart": "Alle %{count} %{name} bevinden zich in uw winkelwagen.",
+        "empty_update": "kan lege winkelwagen niet updaten",
+        "missing_parameters": "geen geldige id of regelparameter",
+        "generic_error": "Winkelwagen fout",
+        "product_not_available": "Artikel is niet beschikbaar",
+        "too_many_line_items_error": "Uw winkelwagen kan niet meer dan %{max} artikelen bevatten.",
+        "link_expired": "Link verlopen",
+        "link_no_longer_exists": "Link bestaat niet meer.",
+        "stock_problems_html": "Een of meer artikelen zijn niet meer beschikbaar. We hebben een <a href='%{link}'>bijgewerkt winkelwagentje<\/a> geleverd.",
+        "changed": "Winkelwagen gewijzigd",
+        "items_changed": "Een of meer items zijn gewijzigd.",
+        "product_sold_out": "Het product '%{name}' is al uitverkocht.",
+        "variant_not_found": "Kan variant niet vinden",
+        "variant_requires_selling_plan": "Variant kan alleen worden gekocht met een verkoopplan.",
+        "selling_plan_not_available_for_company_locations": "Alleen eenmalige aankoop is beschikbaar voor B2B-bestellingen",
+        "digital_product_not_available_for_company_locations": "Dit artikel kan niet worden toegevoegd aan een B2B-bestelling",
+        "selling_plan_not_applicable": "Kan verkoopplan niet toepassen op variant",
+        "shipping_address_not_required": "Deze winkelwagen hoeft niet te worden verzonden",
+        "shipping_address_invalid": "Er is een probleem opgetreden bij het berekenen van uw verzendkosten. Ga door naar afrekenen om een ​​verzendtarief te kiezen voordat je je bestelling voltooit."
+      }
+    },
+    "checkpoint": {
+      "error": "Captcha-validatie mislukt",
+      "submit_button_text": "Indienen",
+      "message": "Los Captcha op om door te gaan"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Meestal klaar in 1 uur",
+        "two_hours": "Meestal klaar in 2 uur",
+        "four_hours": "Meestal klaar in 4 uur",
+        "twenty_four_hours": "Meestal binnen 24 uur klaar",
+        "two_to_four_days": "Meestal klaar in 2-4 dagen",
+        "five_or_more_days": "Meestal klaar in 5+ dagen",
+        "zero_to_two_hours": "Meestal klaar in 2 uur",
+        "two_to_four_hours": "Meestal klaar in 4 uur",
+        "immediately": "Nu klaar om af te halen",
+        "next_day": "Klaar om de volgende dag opgehaald te worden"
+      }
+    },
+    "search": {
+      "sorting": {
+        "price_descending": "Prijs, hoog naar laag"
+      }
+    },
+    "page_titles": {
+      "blog_or_article_with_error": "Fout - %{title}",
+      "products": "Producten",
+      "shopping_cart": "Uw winkelwagen",
+      "account": "Rekening",
+      "create_account": "Maak een account aan",
+      "reset_account": "Account resetten",
+      "addresses": "Adressen",
+      "order": "Bestel %{name}",
+      "search": "Zoeken",
+      "search_results": {
+        "one": "Zoeken: %{count} resultaat gevonden voor \"%{terms}\"",
+        "other": "Zoeken: %{count} resultaten gevonden voor \"%{terms}\""
+      },
+      "collections": "Collecties",
+      "not_found": "404 Niet Gevonden",
+      "challenge": "Uitdaging",
+      "checkpoint": "Controlepunt"
+    },
+    "challenge": {
+      "message": "Laat ons weten dat je geen robot bent om door te gaan.",
+      "error": "Je antwoord was niet correct, probeer het opnieuw.",
+      "submit_button_text": "Indienen"
+    },
+    "cart": {
+      "discounts_with_count": "Er zijn %{count} kortingen toegepast"
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Accountmenu verbergen",
+        "label": "Rekening",
+        "show_accessibility_label": "Accountmenu tonen"
+      },
+      "action_menu_accessibility_label": "Meer acties",
+      "close_menu_accessibility_label": "Sluit de hoofdnavigatie",
+      "contact_email_subject": "Contact van {{shopName}} online winkel",
+      "contact_link": "Neem contact op",
+      "delete_confirmation": {
+        "cancel": "Annuleren",
+        "delete": "Verwijderen"
+      },
+      "dismiss_toast": "Afwijzen",
+      "document_title": "{{sectionName}} - {{shopName}} - Rekening",
+      "go_to_store_link": "Ga naar de winkel",
+      "loading_message": "Bezig met laden",
+      "log_out_link": "Uitloggen",
+      "login_prompt": {
+        "continue": "Doorgaan",
+        "privacy": "Privacy",
+        "title": "Ga verder met inloggen"
+      },
+      "logout_overlay_label": "Je uitloggen...",
+      "nav_label_accessibility_label": "Hoofdnavigatie",
+      "navigation_accessibility_message": "U navigeerde naar {{sectionName}}",
+      "open_menu_accessibility_label": "Hoofdnavigatie openen",
+      "orders_link_label": "Bestellingen",
+      "shop_logo_accessibility_label": "{{shopName}}-logo",
+      "generic_accessibility_label": "{{label}}: {{value}}",
+      "subscriptions_link_label": "Abonnementen"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Accountgegevens laden",
+      "loading_finished_accessibility_message": "Accountgegevens zijn geladen",
+      "profile_card": {
+        "cancel": "Annuleren",
+        "cancel_accessibility_label": "Annuleer het bewerken van het profiel",
+        "edit": "Bewerk",
+        "edit_accessibility_label": "Bewerk profiel",
+        "email_help_text": "Het e-mailadres dat wordt gebruikt om in te loggen, kan niet worden gewijzigd",
+        "first_name": "Voornaam",
+        "last_name": "Achternaam",
+        "phone_number_help_text": "Het telefoonnummer dat wordt gebruikt om in te loggen kan niet worden gewijzigd",
+        "save": "Sparen",
+        "save_accessibility_label": "Profiel opslaan",
+        "title": "Profiel"
+      },
+      "profile_update_confirmation_message": "Profiel geüpdatet",
+      "title": "Account Informatie",
+      "people": {
+        "pagination": {
+          "load_more": "Meer laden",
+          "load_more_accessibility_label": "Laad meer mensen",
+          "loading_accessibility_label": "Mensen laden"
+        }
+      }
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Lay-out opties",
+      "list_title": "Bestellingen",
+      "order_list": {
+        "column_headers": {
+          "delivery_date": "Bezorgdatum",
+          "items": "Artikelen",
+          "order_date": "Besteldatum",
+          "order_number": "Bestellingsnummer",
+          "status": "Bestelstatus",
+          "payment_status": "Betalingsstatus",
+          "total": "Totaal"
+        },
+        "delivered": "Geleverd {{date}}",
+        "empty_state_order_source_description": "Alleen bestellingen geplaatst door {{email}} worden hier weergegeven.",
+        "empty_state_subtitle": "Ga naar de winkel om een ​​bestelling te plaatsen.",
+        "empty_state_title": "Nog geen bestellingen",
+        "estimated": "Geschat {{date}}",
+        "estimated_shortform": "Oosten. {{date}}",
+        "estimated_delivery": "Geschatte levering {{date}}",
+        "one_images_accessibility_label": "Bestelling bevat {{lineItemName1}}",
+        "two_images_accessibility_label": "Bestelling bevat {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Bestelling bevat {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Bestelling omvat {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "items": {
+          "one": "{{count}} artikel",
+          "other": "{{count}} items"
+        },
+        "list_view": "Toon lijstweergave",
+        "multiple_shipments": "Meerdere zendingen",
+        "no_filtered_results_description": "Verwijder of pas filters aan om je bestellingen te zien",
+        "no_filtered_results_title": "Geen gefilterde resultaten",
+        "order_link": "Bekijk bestelling {{name}}",
+        "order_number": "Bestel {{name}}",
+        "orders_title": "Bevestigd",
+        "pagination": {
+          "nav_accessibility_label": "Navigatieknoppen voor bestellingen",
+          "next": "Volgende",
+          "next_accessibility_label": "Volgende bestellingen",
+          "previous": "Vorige",
+          "previous_accessibility_label": "Vorige bestellingen",
+          "load_more": "Meer laden",
+          "load_more_accessibility_label": "Laad meer bestellingen"
+        },
+        "payment_status": {
+          "list_view": {
+            "overdue": "Achterstallige betaling",
+            "due": "Betaling verschuldigd {{date}}",
+            "due_today": "Betaling vandaag verschuldigd",
+            "due_without_date": "Betaling verschuldigd"
+          },
+          "table_view": {
+            "overdue": "Achterstallig",
+            "due": "{{date}}",
+            "due_today": "Vandaag uitgerekend",
+            "paid": "Betaald",
+            "due_without_date": "Vanwege"
+          }
+        },
+        "sort_by": "Sorteer op: {{option}}",
+        "sort_hide_options_accessibility_label": "Verberg sorteeropties voor bevestigde bestellingen.",
+        "sort_show_options_accessibility_label": "Toon sorteeropties voor bevestigde bestellingen.",
+        "sort_currently_sorted_by_accessibility_label": "Momenteel gesorteerd op: {{option}}",
+        "sort_title": "Soort",
+        "sort": {
+          "date": {
+            "newest": "Nieuwste naar oudste",
+            "oldest": "Van oud naar nieuwste"
+          },
+          "location": {
+            "ascending": "Locatie (AZ)",
+            "descending": "Locatie (ZA)"
+          },
+          "order_number": {
+            "ascending": "Bestelnummer (van laag naar hoog)",
+            "descending": "Bestelnummer (hoog naar laag)"
+          },
+          "order_total": {
+            "ascending": "Totaal bestelling (van laag naar hoog)",
+            "descending": "Order totaal (hoog naar laag)"
+          }
+        },
+        "table_view": "Toon tabelweergave",
+        "carousel": {
+          "one_products_accessibility_label": "Bestelling is inclusief {{lineItemName1}} hoeveelheid {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "Bestelling bevat {{lineItemName1}} aantal {{lineItemQuantity1}}, {{lineItemName2}} aantal {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Bestelling bevat {{lineItemName1}} aantal {{lineItemQuantity1}}, {{lineItemName2}} aantal {{lineItemQuantity2}}, {{lineItemName3}} aantal {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Bestelling bevat {{lineItemName1}} aantal {{lineItemQuantity1}}, {{lineItemName2}} aantal {{lineItemQuantity2}}, {{lineItemName3}} aantal {{lineItemQuantity3}}, {{lineItemName4}} aantal {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "Bestelling bevat {{lineItemName1}} aantal {{lineItemQuantity1}}, {{lineItemName2}} aantal {{lineItemQuantity2}}, {{lineItemName3}} aantal {{lineItemQuantity3}}, {{lineItemName4}} aantal {{lineItemQuantity4}}, {{lineItemName5}} aantal {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "Bestelling bevat {{lineItemName1}} aantal {{lineItemQuantity1}}, {{lineItemName2}} aantal {{lineItemQuantity2}}, {{lineItemName3}} aantal {{lineItemQuantity3}}, {{lineItemName4}} aantal {{lineItemQuantity4}}, {{lineItemName5}} aantal {{lineItemQuantity5}}, {{lineItemName6}} aantal {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Bestelling omvat {{lineItemName1}} hoeveelheid {{lineItemQuantity1}}, {{lineItemName2}} hoeveelheid {{lineItemQuantity2}}, {{lineItemName3}} hoeveelheid {{lineItemQuantity3}}, {{lineItemName4}} hoeveelheid {{lineItemQuantity4}}, {{lineItemName5}} hoeveelheid {{lineItemQuantity5}}, {{lineItemName6}} hoeveelheid {{lineItemQuantity6}} en meer",
+          "view_order_details": "Bekijk details van de bestelling",
+          "previous": "Vorig",
+          "next": "Volgende"
+        }
+      },
+      "order_status": {
+        "attempted_delivery_label": "Poging tot levering",
+        "attempted_delivery_description": "De bezorgpoging is mislukt.",
+        "confirmed_description": "We hebben je bestelling ontvangen.",
+        "on_its_way_description": "Deze zending is onderweg.",
+        "out_for_delivery_description": "Deze zending is onderweg.",
+        "preparing_for_shipping_label": "Klaarmaken voor verzending",
+        "preparing_for_shipping_description": "Deze artikelen worden klaargemaakt voor verzending.",
+        "ready_for_pickup_label": "Klaar om op te halen",
+        "ready_for_pickup_description": "Deze artikelen staan klaar om afgehaald te worden.",
+        "picked_up_label": "Opgepikt",
+        "picked_up_description": "Deze items zijn opgehaald.",
+        "canceled_description": "Uw bestelling is geannuleerd op {{date}} .",
+        "canceled_label": "Geannuleerd",
+        "canceled_title": "Je bestelling is geannuleerd",
+        "come_back": "Kom terug naar deze pagina voor updates over de status van uw zending.",
+        "company_tracking_number": "{{company}} volgnummer:",
+        "confirmed_label": "Bevestigd",
+        "confirmed_title": "Uw bestelling is bevestigd",
+        "delivered_description": "Deze zending is afgeleverd.",
+        "delivered_label": "Geleverd",
+        "delivered_title": "Uw zending is afgeleverd",
+        "estimated_delivery": "Geschatte levering {{date}}",
+        "in_review_description": "We laten het je weten als we meer informatie nodig hebben of als je bestelling is bevestigd.",
+        "in_review_label": "In beoordeling",
+        "in_review_title": "Je bestelling wordt beoordeeld",
+        "no_tracking_number": "Er is geen trackingnummer voor deze zending.",
+        "on_its_way_label": "Onderweg",
+        "on_its_way_title": "Uw zending is onderweg",
+        "out_for_delivery_label": "Uit voor bezorging",
+        "out_for_delivery_title": "Uw zending is klaar voor bezorging",
+        "resume_tracking": "Volgen hervatten",
+        "submitted_label": "Ingediend",
+        "track_shipment": "Zending volgen",
+        "request_return": "Retour aanvragen",
+        "submitted_description": "Controleer de bestel- en betalingsgegevens."
+      },
+      "status_mark_as_delivered": "Markeer als afgeleverd",
+      "status_title": "Bestelstatus",
+      "buy_again": "Koop opnieuw",
+      "buy_again_accessibility_label": "Koop opnieuw voor bestelling {{orderId}}",
+      "manage": "Beheren",
+      "manage_accessiblity_label": "Bestelling beheren {{orderId}}"
+    },
+    "order_details": {
+      "shipment_timeline": {
+        "expand_events_label": "Toon details",
+        "expand_events_accessibility_label": "Details van bestellingsverzending weergeven",
+        "hide_events_label": "Verberg details",
+        "hide_events_accessibility_label": "Details van de bestelling verbergen"
+      },
+      "addresses_section_title": "Facturering en verzending",
+      "billing_address": "Factuur adres",
+      "card_ending_with": "eindigend op {{lastDigits}}",
+      "contact": "Contact",
+      "fully_refunded_label": "TERUGBETALING",
+      "discount": "Korting",
+      "hide_items": "Artikelen verbergen",
+      "loading": "Bestelgegevens laden",
+      "loading_finished_accessibility_message": "Bestelgegevens zijn geladen",
+      "location": "Plaats",
+      "mobile_summary_toggle_button": {
+        "open": "Besteloverzicht tonen",
+        "closed": "Bestellingsoverzicht verbergen"
+      },
+      "no_data": "Geen",
+      "not_applicable": "NVT",
+      "partially_refunded_label": "GEDEELTELIJK TERUGBETAALD",
+      "payment": {
+        "status_in_review": "Betaling verschuldigd na beoordeling",
+        "status_unpaid": "Betaling verschuldigd op {{date}}",
+        "title": "Betaling"
+      },
+      "refunded_amount": "Terugbetaald",
+      "request_return_failed": "Er is een probleem opgetreden bij het verwerken van uw verzoek. Probeer het opnieuw.",
+      "returns": {
+        "expand_events_label": "Toon details",
+        "hide_events_label": "Verberg details",
+        "print_shipping_label": "Verzendlabel afdrukken",
+        "tracking_number": "Volg nummer:"
+      },
+      "shipping": {
+        "address": "Verzendingsadres",
+        "address_map_marker": "Verzendingsadres",
+        "method": "Verzendmethode:",
+        "summary": "Verzenden"
+      },
+      "show_items": "Artikelen weergeven",
+      "subtitle": "Bevestigd {{date}}",
+      "subtotal": "Subtotaal",
+      "summary_list_title_accessibility_label": "Artikelen bestellen",
+      "summary_title": "Overzicht van de bestelling",
+      "summary_totals_title_accessibility_label": "Ordertotalen",
+      "taxes": "Belastingen",
+      "title": "Bestel {{name}}",
+      "total": "Totaal",
+      "unit_price": "( {{price}} \/st)",
+      "pagination": {
+        "load_more": "Meer laden",
+        "load_more_accessibility_label": "Laad meer items",
+        "loading_accessibility_label": "Items laden"
+      }
+    },
+    "addresses": {
+      "add_button": "Voeg adres toe",
+      "add_address_banner": "Adressen toevoegen om te gebruiken bij het afrekenen",
+      "address_deleted_notification": "Adres verwijderd",
+      "cancel_adding_address_accessibility_label": "Toevoegen van adres annuleren",
+      "cancel_deletion_button": "Annuleren",
+      "cancel_deletion_button_accessibility_label": "Annuleer het verwijderen {{address}}",
+      "default_address": {
+        "title": "Standaard adres",
+        "title_accessibility_label": "Standaardadres: {{address}}"
+      },
+      "delete_button": "Verwijderen",
+      "delete_button_accessibility_label": "Verwijder {{address}}",
+      "delete_confirmation_button": "Adres verwijderen",
+      "delete_confirmation_button_accessibility_label": "Verwijder {{address}}",
+      "delete_confirmation_message": "Adres verwijderen? Bestaande bestellingen worden niet beïnvloed.",
+      "delete_confirmation_title": "Adres verwijderen?",
+      "delete_confirmation_description": "Bestaande bestellingen worden niet beïnvloed.",
+      "edit_button": "Bewerk",
+      "edit_button_accessibility_label": "Bewerken {{address}}",
+      "edit_section_accessibility_label": "Bewerken {{address}}",
+      "edit_modal_title": {
+        "default": "Verander adres",
+        "billing": "Factuuradres bewerken",
+        "shipping": "Verzendadres bewerken"
+      },
+      "loading_accessibility_message": "Adres laden",
+      "loading_addresses_accessibility_message": "Adressen laden",
+      "loading_billing_accessibility_message": "Factuuradres laden",
+      "loading_finished_accessibility_message": "Nieuwe pagina met adressen is geladen",
+      "loading_shipping_accessibility_message": "Verzendadres laden",
+      "pagination": {
+        "load_more": "Meer laden",
+        "load_more_accessibility_label": "Laad meer adressen"
+      },
+      "save_new_address_accessibility_label": "Adres opslaan",
+      "title": "Adressen"
+    },
+    "address_form": {
+      "auto_complete_close_accessibility_label": "Suggesties sluiten",
+      "auto_complete_title": "Suggesties",
+      "billing_address": "Gebruik als factuuradres",
+      "cancel": "Annuleren",
+      "cancel_accessibility_label": "Bewerken van adres {{address}} annuleren",
+      "creation_success_notification": "Adres toegevoegd",
+      "default_address": "Dit is mijn standaardadres",
+      "default_address_creation_success_notification": "Standaard adres toegevoegd",
+      "default_address_update_success_notification": "Standaard adres bijgewerkt",
+      "loading_add_form_accessibility_message": "Nieuw adresformulier laden",
+      "loading_edit_form_accessibility_message": "Bewerk adresformulier laden",
+      "loading_finished_accessibility_message": "Formulier is geladen",
+      "save": "Opslaan",
+      "save_accessibility_label": "Adres opslaan {{address}}",
+      "section_title_accessibility_label": "Voeg adres toe",
+      "update_success_notification": "Adres bijgewerkt"
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Bedrijfsnaam",
+        "company_card_section_accessibility_label": "Bedrijf"
+      },
+      "locations": {
+        "contact_email": "E-mail",
+        "contact_list_title": "Mensen",
+        "contact_name": "Naam",
+        "contact_permissions": "Rechten",
+        "contact_phone_number": "Telefoonnummer",
+        "location_picker_label": "Locatie naam",
+        "net_payment_terms_description": "{{name}} : betalingen binnen {{numberOfDays}} dagen",
+        "payment_details_title": "Betalingsdetails",
+        "payment_terms": "Betaalvoorwaarden",
+        "permissions_label": "Uw rechten",
+        "permissions_title": "Rechten",
+        "section_title": "Plaats",
+        "shipping_address_required": "Voeg een verzendadres toe aan deze locatie om bestellingen te plaatsen.",
+        "tax_details_title": "Belastinggegevens",
+        "tax_id": "BTW-nummer",
+        "tax_exemptions": "Belastingvrijstellingen",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}} meer",
+        "multiple_tax_exemptions_and": "en",
+        "tax_exemptions_modal_close": "Dichtbij",
+        "taxes_none": "Geen",
+        "tax_exemption_not_applicable": "Nvt",
+        "tax_exemptions_modal_button_accessibility_label": "Bekijk alle belastingvrijstellingen"
+      },
+      "location_selection": {
+        "continue_to_store": "Ga door met opslaan",
+        "description": "Als u al artikelen in uw winkelwagen heeft, kan het wijzigen van locaties van invloed zijn op de prijzen en hoeveelheden van de winkelwagen.",
+        "list_accessibility_label": "Lijst met locaties",
+        "list_item_without_address_accessibility_label": "{{name}}: Geen adres",
+        "list_loading_accessibility_message": "Lijst met locaties laden",
+        "list_loading_address_accessibility_message": "Laadadres voor {{locationName}}",
+        "list_loading_finished_accessibility_message": "Lijst met locaties is geladen",
+        "loading_store_accessibility_message": "Op weg naar de winkel",
+        "no_location_title": "Alleen persoonlijke bestellingen",
+        "no_location_description": "U heeft geen toestemming meer om bestellingen te plaatsen voor {{company}}. U kunt nog steeds persoonlijke bestellingen plaatsen.",
+        "no_locations_found": "Geen locaties gevonden",
+        "search": "Zoek een locatie",
+        "selection_cancel_button": "Annuleren",
+        "selection_confirmation_button": "Kies locatie",
+        "title": "Voor welke locatie koopt u?",
+        "clear_search": "Duidelijke zoek",
+        "try_new_search": "Probeer een nieuwe zoekopdracht",
+        "list_item_accessibility_label": "{{name}}: {{address}}"
+      },
+      "addresses": {
+        "add_billing_address_button": "Factuuradres toevoegen",
+        "add_billing_address_section_accessibility_label": "Factuuradres toevoegen",
+        "add_shipping_address_button": "Verzendadres toevoegen",
+        "add_shipping_address_section_accessibility_label": "Verzendadres toevoegen",
+        "billing_address_card_title": "Factuur adres",
+        "cancel_adding_billing_address_accessibility_label": "Annuleer het toevoegen van factuuradres",
+        "cancel_adding_shipping_address_accessibility_label": "Annuleer het toevoegen van verzendadres",
+        "save_new_billing_address_accessibility_label": "Factuuradres opslaan",
+        "save_new_shipping_address_accessibility_label": "Verzendadres opslaan",
+        "shipping_address_card_title": "Verzendingsadres"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Verstop alles",
+          "show_all": "Toon alles",
+          "hide_all_accessibility_label": "Verberg alle bestellingen die worden beoordeeld",
+          "show_all_accessibility_label": "Toon alle bestellingen in review",
+          "show_all_orders_in_review": "Toon alle bestellingen in review",
+          "show_less_orders_in_review": "Toon minder bestellingen in beoordeling",
+          "title": "In afwachting",
+          "pagination": {
+            "nav_accessibility_label": "Bestellingen in beoordelingsnavigatieknoppen"
+          }
+        },
+        "order_list_column_headers_location": "Plaats",
+        "order_list_column_headers_contact": "Contact"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Bevestigd {{date}} van bestelling {{draftOrderName}}",
+        "loading": "Bestelgegevens laden",
+        "loading_finished_accessibility_message": "Bestelgegevens zijn geladen",
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "one": "Uw betaling is {{count}} dag te laat",
+              "other": "Uw betaling is {{count}} dagen te laat"
+            },
+            "banner_due": {
+              "one": "Uw betaling dient over {{count}} dag te worden voldaan",
+              "other": "Uw betaling is binnen {{count}} dagen verschuldigd"
+            },
+            "banner_due_today": "Uw betaling is vandaag verschuldigd",
+            "title": "Betaling verschuldigd",
+            "title_with_date": "Betaling verschuldigd {{date}}",
+            "title_due_on_receipt": "Betaling nog niet verschuldigd",
+            "title_due_on_fulfillment": "Betaling verschuldigd bij uitvoering",
+            "description_overdue": "Uw betaling is te laat.",
+            "description_partially_paid": "Deze bestelling is gedeeltelijk betaald. U heeft een resterend saldo.",
+            "description_authorized": "Uw betaalmethode wordt op de vervaldatum in rekening gebracht, of u kunt nu betalen.",
+            "description_due_on_receipt": "U ontvangt een factuur wanneer de betaling verschuldigd is.",
+            "description_due_on_fulfillment": "De betaling is verschuldigd zodra aan alle items in deze bestelling is voldaan."
+          },
+          "draft": {
+            "description": "Betalingsgegevens worden bepaald wanneer de bestelling wordt bevestigd.",
+            "title": "Betaling nog niet verschuldigd",
+            "in_review": {
+              "description": "Betalingsgegevens worden bepaald wanneer de bestelling wordt bevestigd.",
+              "title": "Betaling nog niet verschuldigd"
+            },
+            "submitted": {
+              "description": "Dien de betaling in om deze bestelling te bevestigen.",
+              "title": "Betaal om te bevestigen"
+            }
+          },
+          "paid": {
+            "title": "Betaald",
+            "title_with_date": "Betaald {{date}}",
+            "description": "Je bestelling is volledig betaald."
+          },
+          "refund": {
+            "title": "Terugbetaald",
+            "title_with_date": "Terugbetaald {{date}}",
+            "description_full_refund": "Je hebt een volledige terugbetaling ontvangen voor deze bestelling.",
+            "description_single_refund": "Je hebt een gedeeltelijke terugbetaling ontvangen voor deze bestelling.",
+            "description_multiple_refunds": "Je hebt gedeeltelijke terugbetalingen ontvangen voor deze bestelling."
+          },
+          "canceled": {
+            "title": "Betaling geannuleerd",
+            "description": "Er worden geen kosten in rekening gebracht."
+          },
+          "pay_now": "Nu betalen",
+          "title": "Betalingsstatus"
+        },
+        "order_timeline": {
+          "expand_events_label": "Toon details",
+          "expand_events_accessibility_label": "Details van conceptbestelling weergeven",
+          "hide_events_label": "Verberg details",
+          "hide_events_accessibility_label": "Details van conceptbestelling verbergen"
+        },
+        "subtitle": "Ingezonden {{date}}",
+        "title": "Bestel {{name}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Er is een probleem opgetreden bij het verwijderen van dit adres. Probeer het opnieuw of vernieuw de pagina."
+      },
+      "addresses_loading_issue": {
+        "description": "Verbindingsfout. Controleer je internetverbinding en probeer het opnieuw."
+      },
+      "banner_title": {
+        "one": "Er is een {{count}} fout",
+        "other": "Er zijn {{count}} fouten"
+      },
+      "failed_address_creation": {
+        "description": "Er is een probleem opgetreden bij het aanmaken van uw adres. Probeer deze pagina te vernieuwen of controleer je internetverbinding."
+      },
+      "failed_address_update": {
+        "description": "Er is een probleem opgetreden bij het bijwerken van uw adres. Probeer deze pagina te vernieuwen of controleer je internetverbinding."
+      },
+      "load_orders_error": {
+        "title": "Kan bestellingen niet laden",
+        "description": "Probeer het opnieuw of kom later terug.",
+        "retry_button": "Opnieuw proberen"
+      },
+      "no_access": {
+        "back_to_authentication_link": "Log in op een ander account",
+        "description": "U bent niet geregistreerd als B2B-klant bij {{shopName}}",
+        "title": "Geen toegang"
+      },
+      "no_access_to_locations": {
+        "description": "U heeft geen toegang tot locaties"
+      },
+      "not_found": {
+        "description": "Controleer de URL of probeer het over een paar minuten opnieuw.",
+        "title": "Er is een probleem met het laden van deze pagina"
+      },
+      "order_not_found": {
+        "description": "Deze bestelling bestaat niet of u heeft geen toestemming om deze te bekijken.",
+        "title": "Bestelling niet gevonden"
+      },
+      "profile_update_error": {
+        "description": "Er is een probleem opgetreden bij het updaten van je profiel. Probeer deze pagina te vernieuwen of controleer je internetverbinding."
+      },
+      "retry_action_label": "Opnieuw proberen"
+    },
+    "payment_methods": {
+      "title": "Betaalmethodes",
+      "add_payment_method_button": "Betaalmethode toevoegen"
+    }
+  },
+  "general": {
+    "search": {
+      "submit": "Zoeken",
+      "result_count": {
+        "one": "{{ count }} resultaat",
+        "other": "{{ count }} resultaten"
+      }
+    },
+    "drawers": {
+      "home": "Huis",
+      "navigation": "Menu",
+      "close_menu": "Menu sluiten",
+      "expand_submenu": "Submenu uitvouwen",
+      "collapse_submenu": "Submenu samenvouwen"
+    },
+    "currency": {
+      "dropdown_label": "Munteenheid"
+    },
+    "language": {
+      "dropdown_label": "Taal"
+    },
+    "accessibility": {
+      "skip_to_content": "Doorgaan naar artikel",
+      "close_modal": "Sluiten (esc)",
+      "close": "Dichtbij",
+      "learn_more": "Leer meer",
+      "loading": "Bezig met laden"
+    },
+    "meta": {
+      "tags": "Getagd \"{{ tags }}\"",
+      "page": "Pagina {{ page }}"
+    },
+    "404": {
+      "title": "404 pagina niet gevonden",
+      "subtext_html": "<p>De pagina die u zocht bestaat niet. <\/p><p><a href='{{ url }}'>Verder winkelen<\/a><\/p>"
+    },
+    "pagination": {
+      "previous": "Vorig",
+      "next": "Volgende"
+    }
+  },
+  "blogs": {
+    "article": {
+      "view_all": "Bekijk alles",
+      "tags": "Tags",
+      "read_more": "Lees verder"
+    },
+    "comments": {
+      "view_comments": "Bekijk de reacties",
+      "title": "laat een reactie achter",
+      "name": "Naam",
+      "email": "E-mail",
+      "message": "Bericht",
+      "post": "Plaats een reactie",
+      "moderated": "Let op, opmerkingen moeten worden goedgekeurd voordat ze worden gepubliceerd",
+      "success_moderated": "Uw reactie is succesvol geplaatst. We zullen het over een tijdje publiceren, omdat onze blog wordt gemodereerd.",
+      "success": "Je reactie is succesvol geplaatst! Dank je!",
+      "with_count": {
+        "one": "{{ count }} opmerking",
+        "other": "{{ count }} opmerkingen"
+      }
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "Winkelwagen",
+      "remove": "Verwijderen",
+      "delete_confirm": "Weet u zeker dat u dit item wilt verwijderen?",
+      "note": "Bestel notitie",
+      "subtotal": "Subtotaal",
+      "discounts": "kortingen",
+      "shipping_at_checkout": "Verzendkosten, belastingen en kortingscodes worden berekend bij het afrekenen.",
+      "update": "Winkelwagen bijwerken",
+      "checkout": "Uitchecken",
+      "empty": "Uw winkelwagen is momenteel leeg.",
+      "continue_shopping": "Doorgaan met winkelen",
+      "continue_browsing_html": "Blader <a href='{{ url }}'>hier<\/a> verder.",
+      "close_cart": "Sluit winkelwagen",
+      "reduce_quantity": "Verminder de artikelhoeveelheid met één",
+      "increase_quantity": "Verhoog de artikelhoeveelheid met één",
+      "terms": "Ik ga akkoord met de algemene voorwaarden",
+      "terms_html": "Ik ga akkoord met de <a href='{{ url }}' target='_blank'>algemene voorwaarden<\/a>",
+      "terms_confirm": "U moet akkoord gaan met de verkoopvoorwaarden om af te rekenen",
+      "item_count": {
+        "one": "{{ count }} artikel",
+        "other": "{{ count }} items"
+      }
+    },
+    "label": {
+      "price": "Prijs",
+      "quantity": "Hoeveelheid",
+      "total": "Totaal"
+    }
+  },
+  "collections": {
+    "general": {
+      "catalog_title": "Catalogus",
+      "all_of_collection": "Bekijk alles",
+      "see_more": "Laat meer zien",
+      "see_less": "Laat minder zien",
+      "no_matches": "Sorry, er zijn geen producten in deze collectie."
+    },
+    "sorting": {
+      "title": "Soort"
+    },
+    "filters": {
+      "title_tags": "Filter",
+      "all_tags": "Alle producten"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Naam",
+      "email": "E-mail",
+      "phone": "Telefoonnummer",
+      "message": "Bericht",
+      "send": "Versturen",
+      "post_success": "Bedankt dat je contact met ons hebt opgenomen. We komen zo snel mogelijk bij je terug."
+    }
+  },
+  "customer": {
+    "account": {
+      "title": "Mijn rekening",
+      "details": "Accountgegevens",
+      "view_addresses": "Adressen bekijken",
+      "return": "Terug naar rekening"
+    },
+    "activate_account": {
+      "title": "Activeer account",
+      "subtext": "Maak uw wachtwoord aan om uw account te activeren.",
+      "password": "Wachtwoord",
+      "password_confirm": "Bevestig wachtwoord",
+      "submit": "Activeer account",
+      "cancel": "Uitnodiging weigeren"
+    },
+    "addresses": {
+      "title": "Adressen",
+      "default": "Standaard",
+      "add_new": "Voeg adres toe",
+      "edit_address": "Verander adres",
+      "first_name": "Voornaam",
+      "last_name": "Achternaam",
+      "company": "Bedrijf",
+      "address1": "Adres 1",
+      "address2": "Adres 2",
+      "city": "Stad",
+      "country": "Land",
+      "province": "Provincie",
+      "zip": "Postcode",
+      "phone": "Telefoon",
+      "set_default": "Instellen als standaardadres",
+      "add": "Voeg adres toe",
+      "update": "Adres bijwerken",
+      "cancel": "Annuleren",
+      "edit": "Bewerk",
+      "delete": "Verwijderen",
+      "delete_confirm": "Weet u zeker dat u dit adres wilt verwijderen?"
+    },
+    "login": {
+      "title": "Log in",
+      "email": "E-mail",
+      "password": "Wachtwoord",
+      "forgot_password": "Vergeten?",
+      "sign_in": "Log in",
+      "cancel": "Keer terug naar winkel",
+      "guest_title": "Ga verder als gast",
+      "guest_continue": "Doorgaan"
+    },
+    "orders": {
+      "title": "Bestelgeschiedenis",
+      "order_number": "Bestellen",
+      "date": "Datum",
+      "payment_status": "Betalingsstatus",
+      "fulfillment_status": "Vervullingsstatus",
+      "total": "Totaal",
+      "none": "U heeft nog geen bestellingen geplaatst."
+    },
+    "order": {
+      "title": "Bestelling {{ name }}",
+      "date_html": "Geplaatst op {{ date }}",
+      "cancelled_html": "Bestelling geannuleerd op {{ date }}",
+      "cancelled_reason": "Reden: {{ reason }}",
+      "billing_address": "Facturatie adres",
+      "payment_status": "Betalingsstatus",
+      "shipping_address": "Verzendingsadres",
+      "fulfillment_status": "Vervullingsstatus",
+      "discount": "Korting",
+      "shipping": "Verzenden",
+      "tax": "VAT",
+      "product": "Product",
+      "sku": "Artikelnummer",
+      "price": "Prijs",
+      "quantity": "Hoeveelheid",
+      "total": "Totaal",
+      "fulfilled_at_html": "Vervuld {{ date }}",
+      "subtotal": "Subtotaal"
+    },
+    "recover_password": {
+      "title": "Stel je wachtwoord opnieuw in",
+      "email": "E-mail",
+      "submit": "Indienen",
+      "cancel": "Annuleren",
+      "subtext": "We sturen je een e-mail om je wachtwoord opnieuw in te stellen.",
+      "success": "We hebben je een e-mail gestuurd met een link om je wachtwoord bij te werken."
+    },
+    "reset_password": {
+      "title": "Accountwachtwoord opnieuw instellen",
+      "subtext": "Voer een nieuw wachtwoord in voor {{ email }}",
+      "password": "Wachtwoord",
+      "password_confirm": "bevestig wachtwoord",
+      "submit": "Reset wachtwoord"
+    },
+    "register": {
+      "title": "Maak een account aan",
+      "first_name": "Voornaam",
+      "last_name": "Achternaam",
+      "email": "E-mail",
+      "password": "Wachtwoord",
+      "submit": "Creëren",
+      "cancel": "Keer terug naar de winkel"
+    }
+  },
+  "home_page": {
+    "onboarding": {
+      "product_title": "Voorbeeld product",
+      "product_description": "Dit gebied wordt gebruikt om de details van uw product te beschrijven. Vertel klanten over de look, feel en stijl van uw product. Voeg details toe over kleur, gebruikte materialen, maatvoering en waar het is gemaakt.",
+      "collection_title": "Voorbeeld collectie",
+      "no_content": "Dit gedeelte bevat momenteel geen inhoud. Voeg inhoud toe aan deze sectie met behulp van de zijbalk."
+    }
+  },
+  "layout": {
+    "cart": {
+      "title": "Winkelwagen"
+    },
+    "customer": {
+      "account": "Account",
+      "log_out": "Uitloggen",
+      "log_in": "Log in",
+      "create_account": "Maak account"
+    }
+  },
+  "products": {
+    "general": {
+      "color_swatch_trigger": "Kleur",
+      "sale": "Uitverkoop",
+      "save_html": "Bewaar {{ saved_amount }}",
+      "next_product": "Volgende: {{ title }}",
+      "sale_price": "Verkoopprijs",
+      "regular_price": "Normale prijs",
+      "from_text_html": "van {{ price }}",
+      "related_products": "Dit vind je misschien ook leuk",
+      "collection_return": "Terug naar {{ collection }}",
+      "reviews": "Recensies"
+    },
+    "product": {
+      "description": "Beschrijving",
+      "in_stock_label": "Op voorraad, klaar om te verzenden",
+      "stock_label": {
+        "one": "Lage voorraad - {{ count }} item over",
+        "other": "Lage voorraad - {{ count }} items over"
+      },
+      "sold_out": "Uitverkocht",
+      "unavailable": "Niet beschikbaar",
+      "quantity": "Hoeveelheid",
+      "add_to_cart": "Voeg toe aan winkelkar",
+      "preorder": "Voorafgaande bestelling",
+      "include_taxes": "Inclusief BTW.",
+      "will_not_ship_until": "Klaar om te verzenden {{ date }}",
+      "will_be_in_stock_after": "Weer op voorraad {{ date }}",
+      "waiting_for_stock": "Inventaris onderweg",
+      "view_in_space": "Bekijk in uw ruimte",
+      "view_in_space_label": "Kijk in je ruimte, laad item in augmented reality-venster"
+    }
+  },
+  "store_availability": {
+    "general": {
+      "view_store_info": "Winkelinformatie bekijken",
+      "check_other_stores": "Check beschikbaarheid bij andere winkels",
+      "pick_up_available": "Ophalen mogelijk",
+      "pick_up_currently_unavailable": "Ophalen momenteel niet mogelijk",
+      "pick_up_available_at_html": "Ophalen mogelijk bij <strong>{{ location_name }}<\/strong>",
+      "pick_up_unavailable_at_html": "Ophalen is momenteel niet mogelijk bij <strong>{{ location_name }}<\/strong>"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title_html": "Hier is je {{ value }} cadeaubon voor {{ shop }}!",
+      "subtext": "Hier is je cadeaubon!",
+      "disabled": "Gehandicapt",
+      "expired": "Verlopen op {{ expiry }}",
+      "active": "Verloopt op {{ expiry }}",
+      "redeem": "Gebruik deze code bij het afrekenen om je cadeaubon in te wisselen",
+      "shop_link": "Begin met winkelen",
+      "print": "Afdrukken",
+      "add_to_apple_wallet": "Toevoegen aan Apple Wallet"
+    }
+  },
+  "date_formats": {
+    "month_day_year": "%b %d, %Y"
+  },
+  "sections": {
+    "map": {
+      "get_directions": "De weg vragen",
+      "address_error": "Fout bij het opzoeken van dat adres",
+      "address_no_results": "Geen resultaten voor dat adres",
+      "address_query_limit_html": "U heeft de gebruikslimiet van de Google API overschreden. Overweeg om te upgraden naar een <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Premium abonnement<\/a>.",
+      "auth_error_html": "Er is een probleem opgetreden bij het verifiëren van uw Google Maps-account. Maak en schakel de machtigingen <a href=\"https:\/\/developers.google.com\/maps\/documentation\/javascript\/get-api-key\">JavaScript API<\/a> en <a href=\"https:\/\/developers.google.com\/maps\/documentation\/geocoding\/get-api-key\">Geocoding API<\/a> van uw app in."
+    },
+    "slideshow": {
+      "play_slideshow": "Diavoorstelling afspelen",
+      "pause_slideshow": "Diavoorstelling pauzeren"
+    }
+  }
+}
